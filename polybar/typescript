@@ -1,0 +1,1077 @@
+Script started on 2020-12-25 03:06:03-06:00 [TERM="alacritty" TTY="/dev/pts/0" COLUMNS="170" LINES="48"]
+[0m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                                                                                                                         [0m[49m[39m[27m[24m[K
+
+[2A7[0m[49m[39m[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/[1m[38;5;31m[38;5;39mpolybar[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                                 [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[?25l8[0m[49m[39m[27m[24m[J]2;themachine@themachine:~/.config/polybar]1;..onfig/polybar[0m[38;5;31m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                                                                                                                         [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/[1m[38;5;31m[38;5;39mpolybar[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                                 [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?12l[?25h[?2004h[4m[32m/[24m[39m[90metc/fonts/conf.d/[39m[17D[39m[4m/[39m[4ms[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[24m[1m[31m/[24m[1m[31ms[1m[31mc[0m[39m[1m[31mc[1m[31mr[0m[39m[0m[39m/[0m[39ms[0m[39mc[0m[39mr[1m[31m/[1m[31ms[1m[31mc[0m[39m [0m[39m[4m/[0m[39m[4ms[24m[0m[39m [4m[32m/[24m[39m[24m[90me[90mtc/fonts/conf.d/[39m[17D[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[4mc[24m[90md .config/polybar/[39m[18D[24m[32mc[32md[39m[39m [39m[4ms[24m[90mc[90mr[90mi[90mp[90mt[90ms[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[4ms[39m[4mc[24m[4mc[39m[4mr[24m[4mr[39m[4mi[39m[4mp[39m[4mt[39m[4ms[1m[4m/[0m[24m[4ms[24m[0m[24m [?1l>[?25l[?2004l[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32mcd[39m [4mscripts[24m[K[?12l[?25h
+]2;cd scripts]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/polybar/[1m[38;5;31m[38;5;39mscripts[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                         [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[32ml[39m[90ml[39m[32ml[32ml[39m[?1l>[?25l[?2004l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32mll[39m[K[?12l[?25h
+]2;ls --color=tty -lh]1;lltotal 276K
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [0m[01;32mbudgie-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mbudgie-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mbudgie-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine  659 Dec 25 03:04 [01;32mcheck-network[0m
+-rwxr-xr-x 1 themachine themachine  535 Dec 25 03:02 [01;32mcheck-network-ws[0m
+-rwxr-xr-x 1 themachine themachine 3.1K Dec 25 03:04 [01;32mcheckupdates[0m
+-rwxr-xr-x 1 themachine themachine  15K Dec 25 03:03 [01;32mcolors-dark.sh[0m
+-rwxr-xr-x 1 themachine themachine  15K Dec 25 03:03 [01;32mcolors-light.sh[0m
+-rwxr-xr-x 1 themachine themachine 2.4K Dec 25 03:05 [01;32mcolors_rofi.sh[0m
+-rwxr-xr-x 1 themachine themachine  11K Dec 25 03:05 [01;32mcolors.sh[0m
+-rwxr-xr-x 1 themachine themachine 1.2K Dec 25 03:03 [01;32mcolor-switch.sh[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mdeepin-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mdeepin-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mdeepin-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32melementary-menu[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32melementary-menu-alt[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32melementary-style[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32melementary-style-alt[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32melementary-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32melementary-sysmenu-alt[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mgnome-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mgnome-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mgnome-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mkde-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mkde-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mkde-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine   99 Dec 25 03:04 [01;32mlauncher[0m
+-rwxr-xr-x 1 themachine themachine  177 Dec 25 03:03 [01;32mlauncher-alt[0m
+-rwxr-xr-x 1 themachine themachine  117 Dec 25 03:03 [01;32mlauncher-full[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mliri-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mliri-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mliri-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine   43 Dec 25 03:04 [01;32mlupdates[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:01 [01;32mmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:01 [01;32mmenu_full[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mmint-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mmint-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mmint-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 2.2K Dec 25 03:04 [01;32mpowermenu[0m
+-rwxr-xr-x 1 themachine themachine  413 Dec 25 03:03 [01;32mpowermenu-alt[0m
+-rwxr-xr-x 1 themachine themachine   97 Dec 25 03:04 [01;32mrunner[0m
+-rwxr-xr-x 1 themachine themachine 3.4K Dec 25 03:03 [01;32mstyle[0m
+-rwxr-xr-x 1 themachine themachine 1.5K Dec 25 03:03 [01;32mstyle.sh[0m
+-rwxr-xr-x 1 themachine themachine 4.6K Dec 25 03:04 [01;32mstyles.sh[0m
+-rwxr-xr-x 1 themachine themachine  529 Dec 25 03:03 [01;32mstyle-switch.sh[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:01 [01;32msysmenu[0m
+drwxr-xr-x 2 themachine themachine 4.0K Dec 25 03:04 [01;34mthemes[0m
+-rwxr-xr-x 1 themachine themachine  947 Dec 25 03:03 [01;32mtype.sh[0m
+-rwxr-xr-x 1 themachine themachine  621 Dec 25 03:03 [01;32mtype-switch.sh[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mubuntu-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mubuntu-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mubuntu-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.4K Dec 25 03:04 [01;32mupdates.sh[0m
+-rwxr-xr-x 1 themachine themachine  136 Dec 25 03:03 [01;32mwindows[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mxubuntu-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mxubuntu-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mxubuntu-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mzorin-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mzorin-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mzorin-sysmenu[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/polybar/[1m[38;5;31m[38;5;39mscripts[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                         [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[4mc[24m[90md scripts[39m[9D[24m[1m[31mc[1m[31ml[0m[39m[90me[90ma[90mr[39m[39m [39m [39m [39m [39m [8D[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?1l>[?25l[?2004l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32mclear[39m[K[?12l[?25h
+]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[0m[49m[39m[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/polybar/[1m[38;5;31m[38;5;39mscripts[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                         [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[32ml[39m[90ml[39m[32ml[32ml[39m[?1l>[?25l[?2004l[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32mll[39m[K[?12l[?25h
+]2;ls --color=tty -lh]1;lltotal 276K
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [0m[01;32mbudgie-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mbudgie-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mbudgie-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine  659 Dec 25 03:04 [01;32mcheck-network[0m
+-rwxr-xr-x 1 themachine themachine  535 Dec 25 03:02 [01;32mcheck-network-ws[0m
+-rwxr-xr-x 1 themachine themachine 3.1K Dec 25 03:04 [01;32mcheckupdates[0m
+-rwxr-xr-x 1 themachine themachine  15K Dec 25 03:03 [01;32mcolors-dark.sh[0m
+-rwxr-xr-x 1 themachine themachine  15K Dec 25 03:03 [01;32mcolors-light.sh[0m
+-rwxr-xr-x 1 themachine themachine 2.4K Dec 25 03:05 [01;32mcolors_rofi.sh[0m
+-rwxr-xr-x 1 themachine themachine  11K Dec 25 03:05 [01;32mcolors.sh[0m
+-rwxr-xr-x 1 themachine themachine 1.2K Dec 25 03:03 [01;32mcolor-switch.sh[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mdeepin-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mdeepin-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mdeepin-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32melementary-menu[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32melementary-menu-alt[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32melementary-style[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32melementary-style-alt[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32melementary-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32melementary-sysmenu-alt[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mgnome-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mgnome-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mgnome-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mkde-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mkde-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mkde-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine   99 Dec 25 03:04 [01;32mlauncher[0m
+-rwxr-xr-x 1 themachine themachine  177 Dec 25 03:03 [01;32mlauncher-alt[0m
+-rwxr-xr-x 1 themachine themachine  117 Dec 25 03:03 [01;32mlauncher-full[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mliri-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mliri-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mliri-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine   43 Dec 25 03:04 [01;32mlupdates[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:01 [01;32mmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:01 [01;32mmenu_full[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mmint-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mmint-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mmint-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 2.2K Dec 25 03:04 [01;32mpowermenu[0m
+-rwxr-xr-x 1 themachine themachine  413 Dec 25 03:03 [01;32mpowermenu-alt[0m
+-rwxr-xr-x 1 themachine themachine   97 Dec 25 03:04 [01;32mrunner[0m
+-rwxr-xr-x 1 themachine themachine 3.4K Dec 25 03:03 [01;32mstyle[0m
+-rwxr-xr-x 1 themachine themachine 1.5K Dec 25 03:03 [01;32mstyle.sh[0m
+-rwxr-xr-x 1 themachine themachine 4.6K Dec 25 03:04 [01;32mstyles.sh[0m
+-rwxr-xr-x 1 themachine themachine  529 Dec 25 03:03 [01;32mstyle-switch.sh[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:01 [01;32msysmenu[0m
+drwxr-xr-x 2 themachine themachine 4.0K Dec 25 03:04 [01;34mthemes[0m
+-rwxr-xr-x 1 themachine themachine  947 Dec 25 03:03 [01;32mtype.sh[0m
+-rwxr-xr-x 1 themachine themachine  621 Dec 25 03:03 [01;32mtype-switch.sh[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mubuntu-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mubuntu-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mubuntu-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.4K Dec 25 03:04 [01;32mupdates.sh[0m
+-rwxr-xr-x 1 themachine themachine  136 Dec 25 03:03 [01;32mwindows[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mxubuntu-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mxubuntu-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mxubuntu-sysmenu[0m
+-rwxr-xr-x 1 themachine themachine 1.7K Dec 25 03:03 [01;32mzorin-menu[0m
+-rwxr-xr-x 1 themachine themachine 2.0K Dec 25 03:03 [01;32mzorin-style[0m
+-rwxr-xr-x 1 themachine themachine 1.8K Dec 25 03:03 [01;32mzorin-sysmenu[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/polybar/[1m[38;5;31m[38;5;39mscripts[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                         [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[32ml[39m[90ml[39m[32ml[32ma[39m[39m[4ml[39m[4ma[4mu[24m[4mu[4mn[24m[4mu[24m[24m [24m[32ml[24m[32ma[39m[24m [32ml[39m[90ml[39m[39m [39m [32m.[39m[90m/launch.sh[39m[10D[4m[32m.[4m[32m/[24m[39m[39m[4m.[39m[4m/[39m[4ml[24m[4ml[39m[4mu[24m[39m [39m [39m [39m [39m [39m [39m [24m[32m.[24m[32m/[24m[32ml[24m[32mu[32mpdates[39m[1m [0m[0m [10D[39m[4m.[39m[4m/[39m[4ml[39m[4mu[39m[4mp[39m[4md[39m[4ma[39m[4mt[39m[4me[24m[39m [4mt[24m[24m [4ma[24m[24m [4md[24m[24m [4mp[24m[24m [4mu[24m[24m [4ml[24m[24m[90ma[90munch.sh[39m[8D[4ml[39m[4ma[24m[4ma[39m[4mu[24m[4mu[39m[4mn[24m[4mn[39m[4mc[24m[4mc[39m[4mh[24m[4mh[39m[4me[24m[90mr[39m[39m [9D[24m[32m.[24m[32m/[24m[32ml[24m[32ma[24m[32mu[24m[32mn[24m[32mc[24m[32mh[24m[32me[32mr[39m[?1l>[?25l[?2004l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32m./launcher[39m[K[?12l[?25h
+]2;./launcher]1;./launcher
+(process:10174): Rofi-[1;33mWARNING[0m **: [34m03:06:58.475[0m: The old Xresources based configuration format is deprecated.
+
+(process:10174): Rofi-[1;33mWARNING[0m **: [34m03:06:58.475[0m: Please upgrade: rofi -upgrade-config.
+Mode [0;31mdrun[0m is not enabled. I have enabled it for now.
+Please consider adding [0;31mdrun[0m to the list of enabled modi: [0;32mmodi: window,run,ssh[0m[0;31m,drun[0m.
+[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/polybar/[1m[38;5;31m[38;5;39mscripts[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                         [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[32m.[39m[90m/launcher[39m[9D[4m[32m.[4m[32m/[24m[39m[39m[4m.[39m[4m/[39m[4ms[24m[90mt[90my[90ml[90me[90m-[90ms[90mw[90mitch.sh Siji[39m[19D[4ms[39m[4mt[24m[24m[32m.[24m[32m/[24m[32ms[24m[32mt[32my[32ml[32me[39m[39m[4m.[39m[4m/[39m[4ms[39m[4mt[39m[4my[39m[4ml[39m[4me[39m[4m.[24m[90ms[90mh[90m [90mF[90me[90ma[90mt[90mh[90me[90mr[39m[39m [39m [39m [39m [14D[4m.[39m[4ms[24m[9D[24m[32m.[24m[32m/[24m[32ms[24m[32mt[24m[32my[24m[32ml[24m[32me[24m[32m.[24m[32ms[32mh[39m[39m[1m [0m[0m [39m [39m [39m [39m [39m [39m [39m [8D[?1l>[?25l[?2004l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32m./style.sh[39m[K[?12l[?25h
+]2;./style.sh]1;./style.shAvailable options:
+Feather		Material		Siji
+Typicons
+[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/polybar/[1m[38;5;31m[38;5;39mscripts[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                         [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[A[A[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/polybar/[1m[38;5;31m[38;5;39mscripts[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                         [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[A[A[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/polybar/[1m[38;5;31m[38;5;39mscripts[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                         [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[1m[31mv[0m[39m[90mim config.ini[39m[13D[1m[31mv[1m[31mi[0m[39m[0m[32mv[0m[32mi[32mm[39m[39m [39m[4m~[24m[90m/[90m.[90mc[90mo[90mn[90mf[90mi[90mg[90m/[90mpolybar/config.ini[39m[27D[4m~[39m[4m/[24m[4m/[39m[4m.[39m[4mc[39m[4mo[39m[4mn[39m[4mf[39m[4mi[39m[4mg[39m[4m/[39m[4mp[39m[4mo[39m[4ml[39m[4my[39m[4mb[39m[4ma[39m[4mr[39m[4m/[39m[4mc[39m[4mo[39m[4mn[39m[4mf[39m[4mi[39m[4mg[39m[4m.[39m[4mi[39m[4mn[39m[4mi[24m[?1l>[?25l[?2004l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32mvim[39m [4m~/.config/polybar/config.ini[24m[K[?12l[?25h
+]2;vim ~/.config/polybar/config.ini]1;vimError detected while processing /home/themachine/.vimrc:[?25l[J
+line  104:[J
+E185: Cannot find color scheme 'Tomorrow-Night'[J
+Press ENTER or type command to continue[?12l[?25h[?1049h[22;0;0t[?1h=[1;48r[27m[24m[23m[0m[H[2J[?25l[48;1H"~/.config/polybar/config.ini" 607L, 15307B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[1;1H[93m  1 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m  2 [0m[96m;;[0m[2;7H[K[3;1H[93m  3 [0m[96m;;      ____        __      __              [0m[3;49H[K[4;1H[93m  4 [0m[96m;;     / __ \____  / /_  __/ /_  ____ ______[0m
+[93m  5 [0m[96m;;    / /_/ / __ \/ / / / / __ \/ __ `/ ___/[0m
+[93m  6 [0m[96m;;   / ____/ /_/ / / /_/ / /_/ / /_/ / /    [0m
+[93m  7 [0m[96m;;  /_/    \____/_/\__, /_.___/\__,_/_/     [0m
+[93m  8 [0m[96m;;                /____/                    [0m
+[93m  9 [0m[96m;;[0m
+[93m 10 [0m[96m;; Created By Aditya Shakya @adi1090x[0m
+[93m 11 [0m[96m;;[0m
+[93m 12 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m 13 
+ 14 [0m[96m;; Global WM Settings[0m
+[93m 15 
+ 16 [0m[38;5;224m[global/wm][0m
+[93m 17 [0m[96m; Adjust the _NET_WM_STRUT_PARTIAL top value[0m
+[93m 18 [0m[96m; Used for top aligned bars[0m
+[93m 19 [0m[38;5;121mmargin-bottom[0m =[95m 0[0m
+[93m 20 
+ 21 [0m[96m; Adjust the _NET_WM_STRUT_PARTIAL bottom value[0m
+[93m 22 [0m[96m; Used for bottom aligned bars[0m
+[93m 23 [0m[38;5;121mmargin-top[0m =[95m 0[0m
+[93m 24 
+ 25 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m 26 
+ 27 [0m[96m;; Bar Settings[0m
+[93m 28 
+ 29 [0m[38;5;224m[bar/main][0m
+[93m 30 [0m[96m; Use either of the following command to list available outputs:[0m
+[93m 31 [0m[96m; If unspecified, the application will pick the first one it finds.[0m
+[93m 32 [0m[96m; $ polybar -m | cut -d ':' -f 1[0m
+[93m 33 [0m[96m; $ xrandr -q | grep " connected" | cut -d ' ' -f1[0m
+[93m 34 [0m[38;5;121mmonitor[0m =
+[93m 35 
+ 36 [0m[96m; Use the specified monitor as a fallback if the main one is not found.[0m
+[93m 37 [0m[38;5;121mmonitor-fallback[0m =
+[93m 38 
+ 39 [0m[96m; Require the monitor to be in connected state[0m
+[93m 40 [0m[96m; XRandR sometimes reports my monitor as being disconnected (when in use)[0m
+[93m 41 [0m[38;5;121mmonitor-strict[0m =[95m false[0m
+[93m 42 
+ 43 [0m[96m; Tell the Window Manager not to configure the window.[0m
+[93m 44 [0m[96m; Use this to detach the bar if your WM is locking its size/position.[0m
+[93m 45 [0m[38;5;121moverride-redirect[0m =[95m false[0m
+[93m 46 [0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            1,1            Top[1;5H[?12l[?25h[?25l[0m[48;1H[K[48;1H/\v[1;6H[7m[96m;[0m[47;155H[1m[7m2
+[0m/\v[?12l[?25ha[?25l[1;6H[96m;[0m[10;11H[7m[96ma[0m[7C[30m[103mA[4Ca[3Ca[2Ca[2Ca[14;12Ha[16;10Ha[17;7HA[25CA[3CA[7Ca[18;20Ha[8Ca[19;6Ha[21;7HA[25CA[3CA[10Ca[22;23Ha[8Ca[23;6Ha[27;9Ha[29;7Ha[3Ca[30;39Ha[11Ca[1Ca[2Ca[31;27Ha[5Ca[32;14Ha[33;11Ha[36;33Ha[2Ca[2Ca[3Ca[11Ca[37;14Ha[3Ca[39;48Ha[40;9Ha[33Ca[41;23Ha[43;24Ha[1Ca[44;22Ha[8Ca[45;26Ha[0m[47;154H[1m[7m0,7
+[0m/\va[?12l[?25h[?25l[48;4H[K[1;6H[7m[96m;[0m[10;11H[96ma[7CAditya Shakya @a[14;12Ha[0m[16;10H[38;5;224ma[0m[17;7H[96mA[25CARTIA[7Ca[18;20Ha[8Ca[0m[19;6H[38;5;121ma[0m[21;7H[96mA[25CARTIA[10Ca[22;23Ha[8Ca[0m[23;6H[38;5;121ma[0m[27;9H[96ma[0m[29;7H[38;5;224mar/ma[0m[30;39H[96ma[11Cavaila[31;27Happlica[32;14Ha[33;11Ha[36;33Has a fallba[11Ca[0m[37;14H[38;5;121mallba[0m[39;48H[96ma[40;9Ha[33Ca[0m[41;23H[95ma[0m[43;24H[96mana[44;22Ha[8Ca[0m[45;26H[95ma[0m[47;154H[1m[7m,2 
+[0m/\v[?12l[?25hb[?25l[1;6H[96m;[0m[10;16H[7m[96mB[0m[14;11H[30m[103mb[16;9Hb[18;28Hb[19;12Hb[21;40Hb[22;16Hb[14Cb[27;8HB[29;6Hb[30;57Hb[32;13Hb[36;42Hb[37;17Hb[39;30Hb[40;46Hb[44;30Hb[0m[47;154H[1m[7m0,12
+[0m/\vb[?12l[?25ha[?25l[10;16H[96mB[0m[14;11H[7m[96mba[0m[16;10H[30m[103ma[18;29Ha[0m[19;12H[38;5;121mb[0m[21;40H[96mb[22;16Hb[0m[15C[30m[103ma[27;9Ha[29;7Ha[0m[30;57H[96mb[0m[32;14H[30m[103ma[36;43Ha[37;18Ha[0m[39;30H[96mb[40;46Hb[0m[44;31H[30m[103ma[0m[47;154H[1m[7m4,7 [48;6H[?12l[?25h[0mt[?25l[27m[24m[23m[0m[H[2J[1;1H[93m113 [0m[96m;   module-margin-{left,right}[0m
+[93m114 [0m[38;5;121mmodule-margin-left[0m =[95m 0[0m
+[93m115 [0m[38;5;121mmodule-margin-right[0m =[95m 0[0m
+[93m116 
+117 [0m[96m; Fonts are defined using <font-name>;<vertical-offset>[0m
+[93m118 [0m[96m; Font names are specified using a fontconfig pattern.[0m
+[93m119 [0m[96m;   font-0 = NotoSans-Regular:size=8;2[0m
+[93m120 [0m[96m;   font-1 = MaterialIcons:size=10[0m
+[93m121 [0m[96m;   font-2 = Termsynu:size=8;-1[0m
+[93m122 [0m[96m;   font-3 = FontAwesome:size=10[0m
+[93m123 [0m[96m; See the Fonts wiki page for more details[0m
+[93m124 
+125 [0m[38;5;121mfont-0[0m =[95m "scientifica:size=8;2"[0m
+[93m126 [0m[38;5;121mfont-1[0m =[95m "Siji:size=8;2"[0m
+[93m127 
+128 [0m[96m; Modules are added to one of the available blocks[0m
+[93m129 [0m[96m;   modules-left = cpu ram[0m
+[93m130 [0m[96m;   modules-center = xwindow xbacklight[0m
+[93m131 [0m[96m;   modules-right = ipc clock[0m
+[93m132 
+133 [0m[96m;; Available modules[0m
+[93m134 [0m[96m;;[0m
+[93m135 [0m[96m;alsa backlight [0m[7m[96mbat[0m[96mtery[0m
+[93m136 [0m[96m;bspwm cpu date[0m
+[93m137 [0m[96m;filesystem github i3[0m
+[93m138 [0m[96m;subscriber demo memory[0m
+[93m139 [0m[96m;menu-apps mpd wired-network[0m
+[93m140 [0m[96m;wireless-network network pulseaudio[0m
+[93m141 [0m[96m;name_you_want temperature my-text-label[0m
+[93m142 [0m[96m;backlight keyboard title workspaces[0m
+[93m143 [0m[96m;;[0m
+[93m144 [0m[96m;; User modules[0m
+[93m145 [0m[96m;checknetwork updates window_switch launcher powermenu sysmenu menu[0m
+[93m146 [0m[96m;;[0m
+[93m147 [0m[96m;; Bars[0m
+[93m148 [0m[96m;cpu_bar memory_bar filesystem_bar mpd_bar [0m
+[93m149 [0m[96m;volume brightness [0m[30m[103mbat[0m[96mtery_bar [0m
+[93m150 
+151 [0m[38;5;121mmodules-left[0m =[95m workspaces sep mpd_i mpd[0m
+[93m152 [0m[38;5;121mmodules-center[0m =[95m [0m
+[93m153 [0m[38;5;121mmodules-right[0m =[95m colors sep memory cpu alsa [0m[30m[103mbat[0m[95mtery network date[0m
+[93m154 
+155 [0m[96m; The separator will be inserted between the output of each module[0m
+[93m156 [0m[38;5;121mseparator[0m =
+[93m157 
+158 [0m[96m; This value is used to add extra spacing between elements[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            135,17         19%[0m[48;1H/\vbat[?12l[?25ht[?25l[23;24H[7m[96mt[0m[37;27H[30m[103mt[41;51Ht[48;8H[?12l[?25h[0me[?25l[23;25H[7m[96me[0m[37;28H[30m[103me[41;52He[48;9H[?12l[?25h[0mr[?25l[23;26H[7m[96mr[0m[37;29H[30m[103mr[41;53Hr[48;10H[?12l[?25h[0my[?25l[23;27H[7m[96my[0m[37;30H[30m[103my[41;54Hy[48;11H[?12l[?25h[?25l[23;21Hbattery[23;21H[?12l[?25h[?25l[0m[48;160H~@k[23;21H[48;160H   [24;19H[47;155H[1m[7m6,15[24;19H[?12l[?25h[?25l[0m[48;160H~@k[24;19H[48;160H   [25;21H[47;155H[1m[7m7,17[25;21H[?12l[?25h[?25l[0m[48;160H~@k[25;21H[48;160H   [26;21H[47;155H[1m[7m8[26;21H[?12l[?25h[?25l[0m[48;160H~@k[26;21H[48;160H   [27;21H[47;155H[1m[7m9[27;21H[?12l[?25h[?25l[0m[48;160H~@k[27;21H[48;160H   [28;21H[47;154H[1m[7m40[28;21H[?12l[?25h[?25l[0m[48;160H~@k[28;21H[48;160H   [29;21H[47;155H[1m[7m1[29;21H[?12l[?25h[?25l[0m[48;160H~@k[29;21H[48;160H   [30;21H[47;155H[1m[7m2[30;21H[?12l[?25h[?25l[0m[48;160H~@k[30;21H[48;160H   [31;6H[47;155H[1m[7m3,2 [31;6H[?12l[?25h[?25l[0m[48;160H~@k[31;6H[48;160H   [32;19H[47;155H[1m[7m4,15[32;19H[?12l[?25h[?25l[0m[48;160H~@k[32;19H[48;160H   [33;21H[47;155H[1m[7m5,17[33;21H[?12l[?25h[?25l[0m[48;160H~@k[33;21H[48;160H   [34;6H[47;155H[1m[7m6,2 [34;6H[?12l[?25h[?25l[0m[48;160H~@k[34;6H[48;160H   [33;21H[47;155H[1m[7m5,17[33;21H[?12l[?25h[?25l[0m[48;160H~@k[33;21H[48;160H   [32;19H[47;155H[1m[7m4,15[32;19H[?12l[?25h[?25l[0m[48;160H~@k[32;19H[48;160H   [31;6H[47;155H[1m[7m3,2 [31;6H[?12l[?25h[?25l[0m[48;160H~@k[31;6H[48;160H   [30;21H[47;155H[1m[7m2,17[30;21H[?12l[?25h[?25l[0m[48;160H~@k[30;21H[48;160H   [29;21H[47;155H[1m[7m1[29;21H[?12l[?25h[?25l[0m[48;160H~@k[29;21H[48;160H   [28;21H[47;155H[1m[7m0[28;21H[?12l[?25h[?25l[0m[48;160H~@k[28;21H[48;160H   [27;21H[47;154H[1m[7m39[27;21H[?12l[?25h[?25l[0m[48;160H~@k[27;21H[48;160H   [26;21H[47;155H[1m[7m8[26;21H[?12l[?25h[?25l[0m[48;160H~@k[26;21H[48;160H   [25;21H[47;155H[1m[7m7[25;21H[?12l[?25h[?25l[0m[48;160H~@k[25;21H[48;160H   [24;19H[47;155H[1m[7m6,15[24;19H[?12l[?25h[?25l[0m[48;160H~@k[24;19H[48;160H   [23;21H[47;155H[1m[7m5,17[23;21H[?12l[?25h[?25l[0m[48;160H~@k[23;21H[48;160H   [23;20H[47;158H[1m[7m6[23;20H[?12l[?25h[?25l[0m[48;160H~@k[23;20H[48;160H   [23;19H[47;158H[1m[7m5[23;19H[?12l[?25h[?25l[0m[48;160H~@k[23;19H[48;160H   [23;18H[47;158H[1m[7m4[23;18H[?12l[?25h[?25l[0m[48;160H~@k[23;18H[48;160H   [23;17H[47;158H[1m[7m3[23;17H[?12l[?25h[?25l[0m[48;160H~@k[23;17H[48;160H   [23;16H[47;158H[1m[7m2[23;16H[?12l[?25h[?25l[0m[48;160H~@k[23;16H[48;160H   [23;15H[47;158H[1m[7m1[23;15H[?12l[?25h[?25l[0m[48;160H~@k[23;15H[48;160H   [23;14H[47;158H[1m[7m0[23;14H[?12l[?25h[?25l[0m[48;160H~@k[23;14H[48;160H   [23;13H[47;157H[1m[7m9 [23;13H[?12l[?25h[?25l[0m[48;160H~@k[23;13H[48;160H   [23;12H[47;157H[1m[7m8[23;12H[?12l[?25h[?25l[0m[48;160H~@k[23;12H[48;160H   [23;11H[47;157H[1m[7m7[23;11H[?12l[?25h[?25l[0m[48;160H~@k[23;11H[48;160H   [23;10H[47;157H[1m[7m6[23;10H[?12l[?25h[?25l[0m[48;160H~@k[23;10H[48;160H   [23;9H[47;157H[1m[7m5[23;9H[?12l[?25h[?25l[0m[48;160H~@k[23;9H[48;160H   [23;8H[47;157H[1m[7m4[23;8H[?12l[?25h[?25l[0m[48;160Hn[23;8H[48;160H[K[48;1H[23;21H[47;157H[1m[7m17[23;21H[?12l[?25h[?25l[0m[48;160Hn[23;21H[48;160H[K[48;1H[37;24H[47;154H[1m[7m49,20[37;24H[?12l[?25h[?25l[0m[48;160Hn[37;24H[48;160H[K[48;1H[41;48H[47;154H[1m[7m53,44[41;48H[?12l[?25h[?25l[0m[48;160Hn[41;48H[48;160H[K[48;1H[23;13H[27m[24m[23m[0m[H[2J[1;1H[93m359 [0m[38;5;121mformat-volume-foreground[0m =[95m ${color.fg-alt}[0m
+[93m360 [0m[38;5;121mformat-volume-padding[0m =[95m 2[0m
+[93m361 
+362 [0m[38;5;121mlabel-volume[0m =[95m %percentage%%[0m
+[93m363 
+364 [0m[38;5;121mformat-muted-prefix[0m =[95m "[6;29H "[0m
+[93m365 [0m[38;5;121mformat-muted-background[0m =[95m ${color.shade4}[0m
+[93m366 [0m[38;5;121mformat-muted-foreground[0m =[95m ${color.fg-alt}[0m
+[93m367 [0m[38;5;121mformat-muted-padding[0m =[95m 2[0m
+[93m368 [0m[38;5;121mlabel-muted[0m =[95m "Muted"[0m
+[93m369 
+370 [0m[38;5;121mramp-volume-0[0m =[95m [0m[13;1H[93m371 [0m[38;5;121mramp-volume-1[0m =[95m [0m[14;1H[93m372 [0m[38;5;121mramp-volume-2[0m =[95m [0m[15;1H[93m373 [0m[38;5;121mramp-volume-3[0m =[95m [0m[16;1H[93m374 [0m[38;5;121mramp-volume-4[0m =[95m [0m[17;1H[93m375 
+376 [0m[38;5;121mramp-headphones-0[0m =[95m [0m[19;1H[93m377 [0m[38;5;121mramp-headphones-1[0m =[95m [0m[20;1H[93m378 
+379 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m380 
+381 [0m[38;5;224m[module/[0m[30m[103mbattery[0m[38;5;224m][0m
+[93m382 [0m[38;5;121mtype[0m =[95m internal/[0m[30m[103mbattery[0m
+[93m383 
+384 [0m[38;5;121mfull-at[0m =[95m 99[0m
+[93m385 [0m[30m[103mbattery[0m =[95m BAT1[0m
+[93m386 [0m[38;5;121madapter[0m =[95m ACAD[0m
+[93m387 [0m[38;5;121mpoll-interval[0m =[95m 2[0m
+[93m388 [0m[38;5;121mtime-format[0m =[95m %H:%M[0m
+[93m389 
+390 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m391 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[93m392 [0m[38;5;121mformat-charging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m393 [0m[38;5;121mformat-charging-padding[0m =[95m 2[0m
+[93m394 
+395 [0m[38;5;121mformat-discharging[0m =[95m <ramp-capacity> <label-discharging>[0m
+[93m396 [0m[38;5;121mformat-discharging-background[0m =[95m ${color.shade3}[0m
+[93m397 [0m[38;5;121mformat-discharging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m398 [0m[38;5;121mformat-discharging-padding[0m =[95m 2[0m
+[93m399 
+400 [0m[38;5;121mformat-full[0m =[95m <label-full>[0m
+[93m401 [0m[38;5;121mformat-full-background[0m =[95m ${color.shade3}[0m
+[93m402 [0m[38;5;121mformat-full-foreground[0m =[95m ${color.fg-alt}[0m
+[93m403 [0m[38;5;121mformat-full-padding[0m =[95m 2[0m
+[93m404 [0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            381,9          63%[23;13H[?12l[?25h[?25l[0m[48;160Hn[23;13H[48;1H/\vbattery[48;160H[K[48;1H[24;21H[47;155H[1m[7m2,17[24;21H[?12l[?25h[?25l[0m[48;160Hn[24;21H[48;160H[K[48;1H[27;5H[47;155H[1m[7m5,1 [27;5H[?12l[?25h[?25l[0m[48;160Hn[27;5H[48;160H[K[48;1H[38;5;224msearch hit BOTTOM, continuing at TOP[23;21H[27m[24m[23m[0m[H[2J[1;1H[93m113 [0m[96m;   module-margin-{left,right}[0m
+[93m114 [0m[38;5;121mmodule-margin-left[0m =[95m 0[0m
+[93m115 [0m[38;5;121mmodule-margin-right[0m =[95m 0[0m
+[93m116 
+117 [0m[96m; Fonts are defined using <font-name>;<vertical-offset>[0m
+[93m118 [0m[96m; Font names are specified using a fontconfig pattern.[0m
+[93m119 [0m[96m;   font-0 = NotoSans-Regular:size=8;2[0m
+[93m120 [0m[96m;   font-1 = MaterialIcons:size=10[0m
+[93m121 [0m[96m;   font-2 = Termsynu:size=8;-1[0m
+[93m122 [0m[96m;   font-3 = FontAwesome:size=10[0m
+[93m123 [0m[96m; See the Fonts wiki page for more details[0m
+[93m124 
+125 [0m[38;5;121mfont-0[0m =[95m "scientifica:size=8;2"[0m
+[93m126 [0m[38;5;121mfont-1[0m =[95m "Siji:size=8;2"[0m
+[93m127 
+128 [0m[96m; Modules are added to one of the available blocks[0m
+[93m129 [0m[96m;   modules-left = cpu ram[0m
+[93m130 [0m[96m;   modules-center = xwindow xbacklight[0m
+[93m131 [0m[96m;   modules-right = ipc clock[0m
+[93m132 
+133 [0m[96m;; Available modules[0m
+[93m134 [0m[96m;;[0m
+[93m135 [0m[96m;alsa backlight [0m[30m[103mbattery[0m
+[93m136 [0m[96m;bspwm cpu date[0m
+[93m137 [0m[96m;filesystem github i3[0m
+[93m138 [0m[96m;subscriber demo memory[0m
+[93m139 [0m[96m;menu-apps mpd wired-network[0m
+[93m140 [0m[96m;wireless-network network pulseaudio[0m
+[93m141 [0m[96m;name_you_want temperature my-text-label[0m
+[93m142 [0m[96m;backlight keyboard title workspaces[0m
+[93m143 [0m[96m;;[0m
+[93m144 [0m[96m;; User modules[0m
+[93m145 [0m[96m;checknetwork updates window_switch launcher powermenu sysmenu menu[0m
+[93m146 [0m[96m;;[0m
+[93m147 [0m[96m;; Bars[0m
+[93m148 [0m[96m;cpu_bar memory_bar filesystem_bar mpd_bar [0m
+[93m149 [0m[96m;volume brightness [0m[30m[103mbattery[0m[96m_bar [0m
+[93m150 
+151 [0m[38;5;121mmodules-left[0m =[95m workspaces sep mpd_i mpd[0m
+[93m152 [0m[38;5;121mmodules-center[0m =[95m [0m
+[93m153 [0m[38;5;121mmodules-right[0m =[95m colors sep memory cpu alsa [0m[30m[103mbattery[0m[95m network date[0m
+[93m154 
+155 [0m[96m; The separator will be inserted between the output of each module[0m
+[93m156 [0m[38;5;121mseparator[0m =
+[93m157 
+158 [0m[96m; This value is used to add extra spacing between elements[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            135,17         19%[0m[48;1H[38;5;224msearch hit BOTTOM, continuing at TOP[23;21H[?12l[?25h[?25l[0m[48;160Hn[23;21H[48;1H/\vbattery [48;12H[K[48;1H[37;24H[47;154H[1m[7m49,20[37;24H[?12l[?25h[?25l[0m[48;160Hn[37;24H[48;160H[K[48;1H[41;48H[47;154H[1m[7m53,44[41;48H[?12l[?25h[?25l[0m[48;160Hn[41;48H[48;160H[K[48;1H[23;13H[27m[24m[23m[0m[H[2J[1;1H[93m359 [0m[38;5;121mformat-volume-foreground[0m =[95m ${color.fg-alt}[0m
+[93m360 [0m[38;5;121mformat-volume-padding[0m =[95m 2[0m
+[93m361 
+362 [0m[38;5;121mlabel-volume[0m =[95m %percentage%%[0m
+[93m363 
+364 [0m[38;5;121mformat-muted-prefix[0m =[95m "[6;29H "[0m
+[93m365 [0m[38;5;121mformat-muted-background[0m =[95m ${color.shade4}[0m
+[93m366 [0m[38;5;121mformat-muted-foreground[0m =[95m ${color.fg-alt}[0m
+[93m367 [0m[38;5;121mformat-muted-padding[0m =[95m 2[0m
+[93m368 [0m[38;5;121mlabel-muted[0m =[95m "Muted"[0m
+[93m369 
+370 [0m[38;5;121mramp-volume-0[0m =[95m [0m[13;1H[93m371 [0m[38;5;121mramp-volume-1[0m =[95m [0m[14;1H[93m372 [0m[38;5;121mramp-volume-2[0m =[95m [0m[15;1H[93m373 [0m[38;5;121mramp-volume-3[0m =[95m [0m[16;1H[93m374 [0m[38;5;121mramp-volume-4[0m =[95m [0m[17;1H[93m375 
+376 [0m[38;5;121mramp-headphones-0[0m =[95m [0m[19;1H[93m377 [0m[38;5;121mramp-headphones-1[0m =[95m [0m[20;1H[93m378 
+379 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m380 
+381 [0m[38;5;224m[module/[0m[30m[103mbattery[0m[38;5;224m][0m
+[93m382 [0m[38;5;121mtype[0m =[95m internal/[0m[30m[103mbattery[0m
+[93m383 
+384 [0m[38;5;121mfull-at[0m =[95m 99[0m
+[93m385 [0m[30m[103mbattery[0m =[95m BAT1[0m
+[93m386 [0m[38;5;121madapter[0m =[95m ACAD[0m
+[93m387 [0m[38;5;121mpoll-interval[0m =[95m 2[0m
+[93m388 [0m[38;5;121mtime-format[0m =[95m %H:%M[0m
+[93m389 
+390 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m391 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[93m392 [0m[38;5;121mformat-charging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m393 [0m[38;5;121mformat-charging-padding[0m =[95m 2[0m
+[93m394 
+395 [0m[38;5;121mformat-discharging[0m =[95m <ramp-capacity> <label-discharging>[0m
+[93m396 [0m[38;5;121mformat-discharging-background[0m =[95m ${color.shade3}[0m
+[93m397 [0m[38;5;121mformat-discharging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m398 [0m[38;5;121mformat-discharging-padding[0m =[95m 2[0m
+[93m399 
+400 [0m[38;5;121mformat-full[0m =[95m <label-full>[0m
+[93m401 [0m[38;5;121mformat-full-background[0m =[95m ${color.shade3}[0m
+[93m402 [0m[38;5;121mformat-full-foreground[0m =[95m ${color.fg-alt}[0m
+[93m403 [0m[38;5;121mformat-full-padding[0m =[95m 2[0m
+[93m404 [0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            381,9          63%[23;13H[?12l[?25h[?25l[0m[48;160Hn[23;13H[48;1H/\vbattery[48;160H[K[48;1H[24;21H[47;155H[1m[7m2,17[24;21H[?12l[?25h[?25l[0m[48;160Hn[24;21H[48;160H[K[48;1H[27;5H[47;155H[1m[7m5,1 [27;5H[?12l[?25h[?25l[0m[48;160Hn[27;5H[48;160H[K[48;1H[38;5;224msearch hit BOTTOM, continuing at TOP[23;21H[27m[24m[23m[0m[H[2J[1;1H[93m113 [0m[96m;   module-margin-{left,right}[0m
+[93m114 [0m[38;5;121mmodule-margin-left[0m =[95m 0[0m
+[93m115 [0m[38;5;121mmodule-margin-right[0m =[95m 0[0m
+[93m116 
+117 [0m[96m; Fonts are defined using <font-name>;<vertical-offset>[0m
+[93m118 [0m[96m; Font names are specified using a fontconfig pattern.[0m
+[93m119 [0m[96m;   font-0 = NotoSans-Regular:size=8;2[0m
+[93m120 [0m[96m;   font-1 = MaterialIcons:size=10[0m
+[93m121 [0m[96m;   font-2 = Termsynu:size=8;-1[0m
+[93m122 [0m[96m;   font-3 = FontAwesome:size=10[0m
+[93m123 [0m[96m; See the Fonts wiki page for more details[0m
+[93m124 
+125 [0m[38;5;121mfont-0[0m =[95m "scientifica:size=8;2"[0m
+[93m126 [0m[38;5;121mfont-1[0m =[95m "Siji:size=8;2"[0m
+[93m127 
+128 [0m[96m; Modules are added to one of the available blocks[0m
+[93m129 [0m[96m;   modules-left = cpu ram[0m
+[93m130 [0m[96m;   modules-center = xwindow xbacklight[0m
+[93m131 [0m[96m;   modules-right = ipc clock[0m
+[93m132 
+133 [0m[96m;; Available modules[0m
+[93m134 [0m[96m;;[0m
+[93m135 [0m[96m;alsa backlight [0m[30m[103mbattery[0m
+[93m136 [0m[96m;bspwm cpu date[0m
+[93m137 [0m[96m;filesystem github i3[0m
+[93m138 [0m[96m;subscriber demo memory[0m
+[93m139 [0m[96m;menu-apps mpd wired-network[0m
+[93m140 [0m[96m;wireless-network network pulseaudio[0m
+[93m141 [0m[96m;name_you_want temperature my-text-label[0m
+[93m142 [0m[96m;backlight keyboard title workspaces[0m
+[93m143 [0m[96m;;[0m
+[93m144 [0m[96m;; User modules[0m
+[93m145 [0m[96m;checknetwork updates window_switch launcher powermenu sysmenu menu[0m
+[93m146 [0m[96m;;[0m
+[93m147 [0m[96m;; Bars[0m
+[93m148 [0m[96m;cpu_bar memory_bar filesystem_bar mpd_bar [0m
+[93m149 [0m[96m;volume brightness [0m[30m[103mbattery[0m[96m_bar [0m
+[93m150 
+151 [0m[38;5;121mmodules-left[0m =[95m workspaces sep mpd_i mpd[0m
+[93m152 [0m[38;5;121mmodules-center[0m =[95m [0m
+[93m153 [0m[38;5;121mmodules-right[0m =[95m colors sep memory cpu alsa [0m[30m[103mbattery[0m[95m network date[0m
+[93m154 
+155 [0m[96m; The separator will be inserted between the output of each module[0m
+[93m156 [0m[38;5;121mseparator[0m =
+[93m157 
+158 [0m[96m; This value is used to add extra spacing between elements[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            135,17         19%[0m[48;1H[38;5;224msearch hit BOTTOM, continuing at TOP[23;21H[?12l[?25h[?25l[0m[48;160H~@k[23;21H[48;160H   [23;20H[47;158H[1m[7m6[23;20H[?12l[?25h[?25l[0m[48;160H~@k[23;20H[48;160H   [23;19H[47;158H[1m[7m5[23;19H[?12l[?25h[?25l[0m[48;160H~@k[23;19H[48;160H   [23;18H[47;158H[1m[7m4[23;18H[?12l[?25h[?25l[0m[48;160H~@k[23;18H[48;160H   [23;17H[47;158H[1m[7m3[23;17H[?12l[?25h[?25l[0m[48;160H~@k[23;17H[48;160H   [23;16H[47;158H[1m[7m2[23;16H[?12l[?25h[?25l[0m[48;160H~@k[23;16H[48;160H   [23;15H[47;158H[1m[7m1[23;15H[?12l[?25h[?25l[0m[48;160H~@k[23;15H[48;160H   [23;14H[47;158H[1m[7m0[23;14H[?12l[?25h[?25l[0m[48;160H~@k[23;14H[48;160H   [24;14H[47;155H[1m[7m6[24;14H[?12l[?25h[?25l[0m[48;160H~@k[24;14H[48;160H   [25;14H[47;155H[1m[7m7[25;14H[?12l[?25h[?25l[0m[48;160H~@k[25;14H[48;160H   [26;14H[47;155H[1m[7m8[26;14H[?12l[?25h[?25l[0m[48;160H~@k[26;14H[48;160H   [25;14H[47;155H[1m[7m7[25;14H[?12l[?25h[?25l[0m[48;160H~@k[25;14H[48;160H   [24;14H[47;155H[1m[7m6[24;14H[?12l[?25h[?25l[0m[48;160H~@k[24;14H[48;160H   [23;14H[47;155H[1m[7m5[23;14H[?12l[?25h[?25l[0m[48;160H~@k[23;14H[48;160H   [22;6H[47;155H[1m[7m4,2 [22;6H[?12l[?25h[?25l[0m[48;160H~@k[22;6H[48;160H   [21;14H[47;155H[1m[7m3,10[21;14H[?12l[?25h[?25l[0m[48;160H~@k[21;14H[48;160H   [20;5H[47;155H[1m[7m2,0-1[20;5H[?12l[?25h[?25l[0m[48;160H~@k[20;5H[48;160H   [19;14H[47;155H[1m[7m1,10 [19;14H[?12l[?25h[?25l[0m[48;160H~@k[19;14H[48;160H   [18;14H[47;155H[1m[7m0[18;14H[?12l[?25h[?25l[0m[48;160H~@k[18;14H[48;160H   [17;14H[47;154H[1m[7m29[17;14H[?12l[?25h[?25l[0m[48;160H~@k[17;14H[48;160H   [17;13H[47;157H[1m[7m9 [17;13H[?12l[?25h[?25l[0m[48;160H~@k[17;13H[48;160H   [17;12H[47;157H[1m[7m8[17;12H[?12l[?25h[?25l[0m[48;160H~@k[17;12H[48;160H   [17;11H[47;157H[1m[7m7[17;11H[?12l[?25h[?25l[0m[48;160H~@k[17;11H[48;160H   [17;10H[47;157H[1m[7m6[17;10H[?12l[?25h[?25l[0m[48;160H~@k[17;10H[48;160H   [17;9H[47;157H[1m[7m5[17;9H[?12l[?25h[?25l[0m[48;160H~@k[17;9H[48;160H   [17;8H[47;157H[1m[7m4[17;8H[?12l[?25h[?25l[0m[48;160H~@k[17;8H[48;160H   [16;8H[47;155H[1m[7m8[16;8H[?12l[?25h[?25l[0m[48;160H~@k[16;8H[48;160H   [17;8H[47;155H[1m[7m9[17;8H[?12l[?25h[?25l[0m[48;160H~@k[17;8H[48;160H   [18;8H[47;154H[1m[7m30[18;8H[?12l[?25h[?25l[0m[48;160H~@k[18;8H[48;160H   [19;8H[47;155H[1m[7m1[19;8H[?12l[?25h[?25l[0m[48;160H~@k[19;8H[48;160H   [20;5H[47;155H[1m[7m2,0-1[20;5H[?12l[?25h[?25l[0m[48;160H~@k[20;5H[48;160H   [21;8H[47;155H[1m[7m3,4  [21;8H[?12l[?25h[?25l[0m[48;160H~@k[21;8H[48;160H   [22;6H[47;155H[1m[7m4,2[22;6H[?12l[?25h[?25l[0m[48;160H~@k[22;6H[48;160H   [23;8H[47;155H[1m[7m5,4[23;8H[?12l[?25h[?25l[0m[48;160H~@k[23;8H[48;160H   [24;8H[47;155H[1m[7m6[24;8H[?12l[?25h[?25l[0m[48;160H~@k[24;8H[48;160H   [25;8H[47;155H[1m[7m7[25;8H[?12l[?25h[?25l[0m[48;160H~@k[25;8H[48;160H   [26;8H[47;155H[1m[7m8[26;8H[?12l[?25h[?25l[0m[48;160H~@k[26;8H[48;160H   [27;8H[47;155H[1m[7m9[27;8H[?12l[?25h[?25l[0m[48;160H~@k[27;8H[48;160H   [28;8H[47;154H[1m[7m40[28;8H[?12l[?25h[?25l[0m[48;160H~@k[28;8H[48;160H   [29;8H[47;155H[1m[7m1[29;8H[?12l[?25h[?25l[0m[48;160H~@k[29;8H[48;160H   [30;8H[47;155H[1m[7m2[30;8H[?12l[?25h[?25l[0m[48;160H~@k[30;8H[48;160H   [31;6H[47;155H[1m[7m3,2[31;6H[?12l[?25h[?25l[0m[48;160H~@k[31;6H[48;160H   [32;8H[47;155H[1m[7m4,4[32;8H[?12l[?25h[?25l[0m[48;160H~@k[32;8H[48;160H   [33;8H[47;155H[1m[7m5[33;8H[?12l[?25h[?25l[0m[48;160H~@k[33;8H[48;160H   [34;6H[47;155H[1m[7m6,2[34;6H[?12l[?25h[?25l[0m[48;160H~@k[34;6H[48;160H   [35;8H[47;155H[1m[7m7,4[35;8H[?12l[?25h[?25l[0m[48;160H~@k[35;8H[48;160H   [36;8H[47;155H[1m[7m8[36;8H[?12l[?25h[?25l[0m[48;160H~@k[36;8H[48;160H   [37;8H[47;155H[1m[7m9[37;8H[?12l[?25h[?25l[0m[48;160H~@k[37;8H[48;160H   [37;7H[47;157H[1m[7m3[37;7H[?12l[?25h[?25l[0m[48;160H~@k[37;7H[48;160H   [37;6H[47;157H[1m[7m2[37;6H[?12l[?25h[?25l[0m[48;160Hi[37;6H[48;160H [37;6H[48;1H[1m-- INSERT --[0m[48;13H[K[37;6H[?12l[?25h[?25lvolume brightness [30m[103mbattery[0m_bar [37;35H[K[47;30H[1m[7m[+][124C1[37;5H[?12l[?25h[0m[48;1H[K[37;5H[?25l[48;160H^[[37;5H[?12l[?25h[?25l[48;160H  [37;5H[?12l[?25h[?25l[48;160H:[37;5H[48;160H[K[48;1H:[?12l[?25hw[?25l"~/.config/polybar/config.ini" 607L, 15306B written[37;5H[47;30H[1m[7m   [37;5H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m111 [0m[96m; Number of spaces to add before/after each module[0m
+[93m112 [0m[96m; Individual side values can be defined using:[0m
+[93m113 [0m[96m;   module-margin-{left,right}[0m
+[93m114 [0m[38;5;121mmodule-margin-left[0m =[95m 0[0m
+[93m115 [0m[38;5;121mmodule-margin-right[0m =[95m 0[0m
+[93m116 
+117 [0m[96m; Fonts are defined using <font-name>;<vertical-offset>[0m
+[93m118 [0m[96m; Font names are specified using a fontconfig pattern.[0m
+[93m119 [0m[96m;   font-0 = NotoSans-Regular:size=8;2[0m
+[93m120 [0m[96m;   font-1 = MaterialIcons:size=10[0m
+[93m121 [0m[96m;   font-2 = Termsynu:size=8;-1[0m
+[93m122 [0m[96m;   font-3 = FontAwesome:size=10[0m
+[93m123 [0m[96m; See the Fonts wiki page for more details[0m
+[93m124 
+125 [0m[38;5;121mfont-0[0m =[95m "scientifica:size=8;2"[0m
+[93m126 [0m[38;5;121mfont-1[0m =[95m "Siji:size=8;2"[0m
+[93m127 
+128 [0m[96m; Modules are added to one of the available blocks[0m
+[93m129 [0m[96m;   modules-left = cpu ram[0m
+[93m130 [0m[96m;   modules-center = xwindow xbacklight[0m
+[93m131 [0m[96m;   modules-right = ipc clock[0m
+[93m132 
+133 [0m[96m;; Available modules[0m
+[93m134 [0m[96m;;[0m
+[93m135 [0m[96m;alsa backlight [0m[30m[103mbattery[0m
+[93m136 [0m[96m;bspwm cpu date[0m
+[93m137 [0m[96m;filesystem github i3[0m
+[93m138 [0m[96m;subscriber demo memory[0m
+[93m139 [0m[96m;menu-apps mpd wired-network[0m
+[93m140 [0m[96m;wireless-network network pulseaudio[0m
+[93m141 [0m[96m;name_you_want temperature my-text-label[0m
+[93m142 [0m[96m;backlight keyboard title workspaces[0m
+[93m143 [0m[96m;;[0m
+[93m144 [0m[96m;; User modules[0m
+[93m145 [0m[96m;checknetwork updates window_switch launcher powermenu sysmenu menu[0m
+[93m146 [0m[96m;;[0m
+[93m147 [0m[96m;; Bars[0m
+[93m148 [0m[96m;cpu_bar memory_bar filesystem_bar mpd_bar [0m
+[93m149 [0mvolume brightness [30m[103mbattery[0m_bar
+[93m150 
+151 [0m[38;5;121mmodules-left[0m =[95m workspaces sep mpd_i mpd[0m
+[93m152 [0m[38;5;121mmodules-center[0m =[95m [0m
+[93m153 [0m[38;5;121mmodules-right[0m =[95m colors sep memory cpu alsa [0m[30m[103mbattery[0m[95m network date[0m
+[93m154 
+155 [0m[96m; The separator will be inserted between the output of each module[0m
+[93m156 [0m[38;5;121mseparator[0m =
+[93m157 
+158 [0m[96m; This value is used to add extra spacing between elements[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            149,1          19%[39;5H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m113 [0m[96m;   module-margin-{left,right}[0m
+[93m114 [0m[38;5;121mmodule-margin-left[0m =[95m 0[0m
+[93m115 [0m[38;5;121mmodule-margin-right[0m =[95m 0[0m
+[93m116 
+117 [0m[96m; Fonts are defined using <font-name>;<vertical-offset>[0m
+[93m118 [0m[96m; Font names are specified using a fontconfig pattern.[0m
+[93m119 [0m[96m;   font-0 = NotoSans-Regular:size=8;2[0m
+[93m120 [0m[96m;   font-1 = MaterialIcons:size=10[0m
+[93m121 [0m[96m;   font-2 = Termsynu:size=8;-1[0m
+[93m122 [0m[96m;   font-3 = FontAwesome:size=10[0m
+[93m123 [0m[96m; See the Fonts wiki page for more details[0m
+[93m124 
+125 [0m[38;5;121mfont-0[0m =[95m "scientifica:size=8;2"[0m
+[93m126 [0m[38;5;121mfont-1[0m =[95m "Siji:size=8;2"[0m
+[93m127 
+128 [0m[96m; Modules are added to one of the available blocks[0m
+[93m129 [0m[96m;   modules-left = cpu ram[0m
+[93m130 [0m[96m;   modules-center = xwindow xbacklight[0m
+[93m131 [0m[96m;   modules-right = ipc clock[0m
+[93m132 
+133 [0m[96m;; Available modules[0m
+[93m134 [0m[96m;;[0m
+[93m135 [0m[96m;alsa backlight [0m[30m[103mbattery[0m
+[93m136 [0m[96m;bspwm cpu date[0m
+[93m137 [0m[96m;filesystem github i3[0m
+[93m138 [0m[96m;subscriber demo memory[0m
+[93m139 [0m[96m;menu-apps mpd wired-network[0m
+[93m140 [0m[96m;wireless-network network pulseaudio[0m
+[93m141 [0m[96m;name_you_want temperature my-text-label[0m
+[93m142 [0m[96m;backlight keyboard title workspaces[0m
+[93m143 [0m[96m;;[0m
+[93m144 [0m[96m;; User modules[0m
+[93m145 [0m[96m;checknetwork updates window_switch launcher powermenu sysmenu menu[0m
+[93m146 [0m[96m;;[0m
+[93m147 [0m[96m;; Bars[0m
+[93m148 [0m[96m;cpu_bar memory_bar filesystem_bar mpd_bar [0m
+[93m149 [0mvolume brightness [30m[103mbattery[0m_bar
+[93m150 
+151 [0m[38;5;121mmodules-left[0m =[95m workspaces sep mpd_i mpd[0m
+[93m152 [0m[38;5;121mmodules-center[0m =[95m [0m
+[93m153 [0m[38;5;121mmodules-right[0m =[95m colors sep memory cpu alsa [0m[30m[103mbattery[0m[95m network date[0m
+[93m154 
+155 [0m[96m; The separator will be inserted between the output of each module[0m
+[93m156 [0m[38;5;121mseparator[0m =
+[93m157 
+158 [0m[96m; This value is used to add extra spacing between elements[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            149,1          19%[37;5H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m111 [0m[96m; Number of spaces to add before/after each module[0m
+[93m112 [0m[96m; Individual side values can be defined using:[0m
+[93m113 [0m[96m;   module-margin-{left,right}[0m
+[93m114 [0m[38;5;121mmodule-margin-left[0m =[95m 0[0m
+[93m115 [0m[38;5;121mmodule-margin-right[0m =[95m 0[0m
+[93m116 
+117 [0m[96m; Fonts are defined using <font-name>;<vertical-offset>[0m
+[93m118 [0m[96m; Font names are specified using a fontconfig pattern.[0m
+[93m119 [0m[96m;   font-0 = NotoSans-Regular:size=8;2[0m
+[93m120 [0m[96m;   font-1 = MaterialIcons:size=10[0m
+[93m121 [0m[96m;   font-2 = Termsynu:size=8;-1[0m
+[93m122 [0m[96m;   font-3 = FontAwesome:size=10[0m
+[93m123 [0m[96m; See the Fonts wiki page for more details[0m
+[93m124 
+125 [0m[38;5;121mfont-0[0m =[95m "scientifica:size=8;2"[0m
+[93m126 [0m[38;5;121mfont-1[0m =[95m "Siji:size=8;2"[0m
+[93m127 
+128 [0m[96m; Modules are added to one of the available blocks[0m
+[93m129 [0m[96m;   modules-left = cpu ram[0m
+[93m130 [0m[96m;   modules-center = xwindow xbacklight[0m
+[93m131 [0m[96m;   modules-right = ipc clock[0m
+[93m132 
+133 [0m[96m;; Available modules[0m
+[93m134 [0m[96m;;[0m
+[93m135 [0m[96m;alsa backlight [0m[30m[103mbattery[0m
+[93m136 [0m[96m;bspwm cpu date[0m
+[93m137 [0m[96m;filesystem github i3[0m
+[93m138 [0m[96m;subscriber demo memory[0m
+[93m139 [0m[96m;menu-apps mpd wired-network[0m
+[93m140 [0m[96m;wireless-network network pulseaudio[0m
+[93m141 [0m[96m;name_you_want temperature my-text-label[0m
+[93m142 [0m[96m;backlight keyboard title workspaces[0m
+[93m143 [0m[96m;;[0m
+[93m144 [0m[96m;; User modules[0m
+[93m145 [0m[96m;checknetwork updates window_switch launcher powermenu sysmenu menu[0m
+[93m146 [0m[96m;;[0m
+[93m147 [0m[96m;; Bars[0m
+[93m148 [0m[96m;cpu_bar memory_bar filesystem_bar mpd_bar [0m
+[93m149 [0mvolume brightness [30m[103mbattery[0m_bar
+[93m150 
+151 [0m[38;5;121mmodules-left[0m =[95m workspaces sep mpd_i mpd[0m
+[93m152 [0m[38;5;121mmodules-center[0m =[95m [0m
+[93m153 [0m[38;5;121mmodules-right[0m =[95m colors sep memory cpu alsa [0m[30m[103mbattery[0m[95m network date[0m
+[93m154 
+155 [0m[96m; The separator will be inserted between the output of each module[0m
+[93m156 [0m[38;5;121mseparator[0m =
+[93m157 
+158 [0m[96m; This value is used to add extra spacing between elements[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            149,1          19%[39;5H[?12l[?25h[?25l[0m[50;160H^[[39;5H[?12l[?25h[?25l[50;160H  [39;5H[?5h[?12l[?25h[?5l[?25l[50;160Hu[39;5H[50;1H1 change; before #1  3 seconds ago[50;160H[K[39;6H[96m;volume brightness [0m[30m[103mbattery[0m[96m_bar [0m[49;30H[1m[7m[+][124C2[39;6H[?12l[?25h[?25l[0m[50;160H^[[39;6H[?12l[?25h[?25l[50;160H  [39;6H[?5h[?12l[?25h[?5l[?25l[50;160H:[39;6H[50;1H[K[50;1H:[?12l[?25hw[?25l"~/.config/polybar/config.ini" 607L, 15307B written[39;6H[49;30H[1m[7m   [39;6H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m113 [0m[96m;   module-margin-{left,right}[0m
+[93m114 [0m[38;5;121mmodule-margin-left[0m =[95m 0[0m
+[93m115 [0m[38;5;121mmodule-margin-right[0m =[95m 0[0m
+[93m116 
+117 [0m[96m; Fonts are defined using <font-name>;<vertical-offset>[0m
+[93m118 [0m[96m; Font names are specified using a fontconfig pattern.[0m
+[93m119 [0m[96m;   font-0 = NotoSans-Regular:size=8;2[0m
+[93m120 [0m[96m;   font-1 = MaterialIcons:size=10[0m
+[93m121 [0m[96m;   font-2 = Termsynu:size=8;-1[0m
+[93m122 [0m[96m;   font-3 = FontAwesome:size=10[0m
+[93m123 [0m[96m; See the Fonts wiki page for more details[0m
+[93m124 
+125 [0m[38;5;121mfont-0[0m =[95m "scientifica:size=8;2"[0m
+[93m126 [0m[38;5;121mfont-1[0m =[95m "Siji:size=8;2"[0m
+[93m127 
+128 [0m[96m; Modules are added to one of the available blocks[0m
+[93m129 [0m[96m;   modules-left = cpu ram[0m
+[93m130 [0m[96m;   modules-center = xwindow xbacklight[0m
+[93m131 [0m[96m;   modules-right = ipc clock[0m
+[93m132 
+133 [0m[96m;; Available modules[0m
+[93m134 [0m[96m;;[0m
+[93m135 [0m[96m;alsa backlight [0m[30m[103mbattery[0m
+[93m136 [0m[96m;bspwm cpu date[0m
+[93m137 [0m[96m;filesystem github i3[0m
+[93m138 [0m[96m;subscriber demo memory[0m
+[93m139 [0m[96m;menu-apps mpd wired-network[0m
+[93m140 [0m[96m;wireless-network network pulseaudio[0m
+[93m141 [0m[96m;name_you_want temperature my-text-label[0m
+[93m142 [0m[96m;backlight keyboard title workspaces[0m
+[93m143 [0m[96m;;[0m
+[93m144 [0m[96m;; User modules[0m
+[93m145 [0m[96m;checknetwork updates window_switch launcher powermenu sysmenu menu[0m
+[93m146 [0m[96m;;[0m
+[93m147 [0m[96m;; Bars[0m
+[93m148 [0m[96m;cpu_bar memory_bar filesystem_bar mpd_bar [0m
+[93m149 [0m[96m;volume brightness [0m[30m[103mbattery[0m[96m_bar [0m
+[93m150 
+151 [0m[38;5;121mmodules-left[0m =[95m workspaces sep mpd_i mpd[0m
+[93m152 [0m[38;5;121mmodules-center[0m =[95m [0m
+[93m153 [0m[38;5;121mmodules-right[0m =[95m colors sep memory cpu alsa [0m[30m[103mbattery[0m[95m network date[0m
+[93m154 
+155 [0m[96m; The separator will be inserted between the output of each module[0m
+[93m156 [0m[38;5;121mseparator[0m =
+[93m157 
+158 [0m[96m; This value is used to add extra spacing between elements[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            149,2          19%[37;6H[?12l[?25h[?25l[0m[48;160H~@k[37;6H[48;160H   [38;5H[47;154H[1m[7m50,0-1[38;5H[?12l[?25h[?25l[0m[48;160H~@k[38;5H[48;160H   [39;6H[47;155H[1m[7m1,2  [39;6H[?12l[?25h[?25l[0m[48;160H~@k[39;6H[48;160H   [40;6H[47;155H[1m[7m2[40;6H[?12l[?25h[?25l[0m[48;160H~@k[40;6H[48;160H   [41;6H[47;155H[1m[7m3[41;6H[?12l[?25h[?25l[0m[48;160H~@k[41;6H[48;160H   [42;5H[47;155H[1m[7m4,0-1[42;5H[?12l[?25h[?25l[0m[48;160H~@k[42;5H[48;160H   [43;6H[47;155H[1m[7m5,2  [43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m159 [0m[96m; @deprecated: This parameter will be removed in an upcoming version[0m[47;155H[1m[7m6[12C20[43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;5H[1;46r[46;1H
+[1;48r[46;1H[93m160 [0m[38;5;121mspacing[0m =[95m 0[0m[47;155H[1m[7m7,0-1[43;5H[?12l[?25h[?25l[0m[48;160H~@k[43;5H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m161 [0m[47;155H[1m[7m8,2  [43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m162 [0m[96m; Opacity value between 0.0 and 1.0 used on fade in/out[0m[47;155H[1m[7m9[43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m163 [0m[38;5;121mdim-value[0m =[95m 1.0[0m[47;154H[1m[7m60[43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;5H[1;46r[46;1H
+[1;48r[46;1H[93m164 [0m[47;155H[1m[7m1,0-1[9C1[43;5H[?12l[?25h[?25l[0m[48;160H~@k[43;5H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m165 [0m[96m; Value to be used to set the WM_NAME atom[0m[47;155H[1m[7m2,2  [43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m166 [0m[96m; If the value is empty or undefined, the atom value[0m[47;155H[1m[7m3[43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;5H[1;46r[46;1H
+[1;48r[46;1H[93m167 [0m[96m; will be created from the following template: polybar-[BAR]_[MONITOR][0m[47;155H[1m[7m4,0-1[43;5H[?12l[?25h[?25l[0m[48;160H~@k[43;5H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m168 [0m[96m; NOTE: The placeholders are not available for custom values[0m[47;155H[1m[7m5,2  [43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m169 [0m[38;5;121mwm-name[0m =[95m [0m[47;155H[1m[7m6[43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m170 [0m[47;155H[1m[7m7[13C2[43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m171 [0m[96m; Locale used to localize various module data (e.g. date)[0m[47;155H[1m[7m8[43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m172 [0m[96m; Expects a valid libc locale, for example: sv_SE.UTF-8[0m[47;155H[1m[7m9[43;6H[?12l[?25h[?25l[0m[48;160H~@k[43;6H[48;160H   [43;5H[1;46r[46;1H
+[1;48r[46;1H[93m173 [0m[38;5;121mlocale[0m =[95m [0m[47;154H[1m[7m70,0-1[43;5H[?12l[?25h[?25l[0m[48;160H~@k[43;5H[48;160H   [43;6H[1;46r[46;1H
+[1;48r[46;1H[93m174 [0m[47;155H[1m[7m1,2  [43;6H[?12l[?25h[?25l[0m[48;160Hn[43;6H[48;1H/\vbattery[48;160H[K[48;1H[23;13H[27m[24m[23m[0m[H[2J[1;1H[93m359 [0m[38;5;121mformat-volume-foreground[0m =[95m ${color.fg-alt}[0m
+[93m360 [0m[38;5;121mformat-volume-padding[0m =[95m 2[0m
+[93m361 
+362 [0m[38;5;121mlabel-volume[0m =[95m %percentage%%[0m
+[93m363 
+364 [0m[38;5;121mformat-muted-prefix[0m =[95m "[6;29H "[0m
+[93m365 [0m[38;5;121mformat-muted-background[0m =[95m ${color.shade4}[0m
+[93m366 [0m[38;5;121mformat-muted-foreground[0m =[95m ${color.fg-alt}[0m
+[93m367 [0m[38;5;121mformat-muted-padding[0m =[95m 2[0m
+[93m368 [0m[38;5;121mlabel-muted[0m =[95m "Muted"[0m
+[93m369 
+370 [0m[38;5;121mramp-volume-0[0m =[95m [0m[13;1H[93m371 [0m[38;5;121mramp-volume-1[0m =[95m [0m[14;1H[93m372 [0m[38;5;121mramp-volume-2[0m =[95m [0m[15;1H[93m373 [0m[38;5;121mramp-volume-3[0m =[95m [0m[16;1H[93m374 [0m[38;5;121mramp-volume-4[0m =[95m [0m[17;1H[93m375 
+376 [0m[38;5;121mramp-headphones-0[0m =[95m [0m[19;1H[93m377 [0m[38;5;121mramp-headphones-1[0m =[95m [0m[20;1H[93m378 
+379 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m380 
+381 [0m[38;5;224m[module/[0m[30m[103mbattery[0m[38;5;224m][0m
+[93m382 [0m[38;5;121mtype[0m =[95m internal/[0m[30m[103mbattery[0m
+[93m383 
+384 [0m[38;5;121mfull-at[0m =[95m 99[0m
+[93m385 [0m[30m[103mbattery[0m =[95m BAT1[0m
+[93m386 [0m[38;5;121madapter[0m =[95m ACAD[0m
+[93m387 [0m[38;5;121mpoll-interval[0m =[95m 2[0m
+[93m388 [0m[38;5;121mtime-format[0m =[95m %H:%M[0m
+[93m389 
+390 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m391 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[93m392 [0m[38;5;121mformat-charging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m393 [0m[38;5;121mformat-charging-padding[0m =[95m 2[0m
+[93m394 
+395 [0m[38;5;121mformat-discharging[0m =[95m <ramp-capacity> <label-discharging>[0m
+[93m396 [0m[38;5;121mformat-discharging-background[0m =[95m ${color.shade3}[0m
+[93m397 [0m[38;5;121mformat-discharging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m398 [0m[38;5;121mformat-discharging-padding[0m =[95m 2[0m
+[93m399 
+400 [0m[38;5;121mformat-full[0m =[95m <label-full>[0m
+[93m401 [0m[38;5;121mformat-full-background[0m =[95m ${color.shade3}[0m
+[93m402 [0m[38;5;121mformat-full-foreground[0m =[95m ${color.fg-alt}[0m
+[93m403 [0m[38;5;121mformat-full-padding[0m =[95m 2[0m
+[93m404 [0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            381,9          63%[23;13H[?12l[?25h[?25l[0m[48;160H~@k[23;13H[48;160H   [24;13H[47;155H[1m[7m2[24;13H[?12l[?25h[?25l[0m[48;160H~@k[24;13H[48;160H   [25;5H[47;155H[1m[7m3,0-1[25;5H[?12l[?25h[?25l[0m[48;160H~@k[25;5H[48;160H   [26;13H[47;155H[1m[7m4,9  [26;13H[?12l[?25h[?25l[0m[48;160H~@k[26;13H[48;160H   [27;13H[47;155H[1m[7m5[27;13H[?12l[?25h[?25l[0m[48;160H^[[27;13H[?12l[?25h[?25l[48;160H  [27;13H[?5h[?12l[?25h[?5l[?25l[48;160H~@k[27;13H[48;160H   [28;13H[47;155H[1m[7m6[28;13H[?12l[?25h[?25l[0m[48;160H~@k[28;13H[48;160H   [29;13H[47;155H[1m[7m7[29;13H[?12l[?25h[?25l[0m[48;160H~@k[29;13H[48;160H   [30;13H[47;155H[1m[7m8[30;13H[?12l[?25h[?25l[0m[48;160Ho[30;13H[48;160H [31;5H[48;1H[1m-- INSERT --[0m[32;5H[K[33;20H =[95m <animation-charging> <label-charging>[0m[34;21H[38;5;121mback[0m[17C[95mshade3[0m[35;21H[38;5;121mforeground[0m =[95m ${color.fg-alt}[0m[36;5H[38;5;121mformat-charging-padding[0m =[95m 2[0m[37;5H[K[38;23H =[95m <ramp-capacity> <label-discharging>[0m[39;24H[38;5;121mback[0m[17C[95mshade3[0m[40;24H[38;5;121mforeground[0m =[95m ${color.fg-alt}[0m[41;5H[38;5;121mformat-discharging-padding[0m =[95m 2[0m[42;5H[K[43;16H =[95m <label-full>[0m[43;31H[K[44;17H[38;5;121mback[0m[17C[95mshade3[0m[45;17H[38;5;121mforeground[0m =[95m ${color.fg-alt}[0m[46;5H[38;5;121mformat-full-padding[0m =[95m 2[0m[47;30H[1m[7m[+][122C9,1[31;5H[?12l[?25h[?25l[27m[24m[23m[0m[H[2J[1;1H[93m417 [0m[96m; ;   %time%[0m
+[93m418 [0m[96m; ;   %consumption% (shows current charge rate in watts)[0m
+[93m419 [0m[96m; label-charging = Charging %percentage%%[0m
+[93m420 [0m[96m;[0m
+[93m421 [0m[96m; ; Available tokens:[0m
+[93m422 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m423 [0m[96m; ;   %percentage_raw%[0m
+[93m424 [0m[96m; ;   %time%[0m
+[93m425 [0m[96m; ;   %consumption% (shows current discharge rate in watts)[0m
+[93m426 [0m[96m; label-discharging = Discharging %percentage%%[0m
+[93m427 [0m[96m;[0m
+[93m428 [0m[96m; ; Available tokens:[0m
+[93m429 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m430 [0m[96m; ;   %percentage_raw%[0m
+[93m431 [0m[96m; label-full = Fully charged[0m
+[93m432 [0m[96m;[0m
+[93m433 [0m[96m; ; Only applies if <ramp-capacity> is used[0m
+[93m434 [0m[96m; ramp-capacity-0 = [0m[19;1H[93m435 [0m[96m; ramp-capacity-1 = [0m[20;1H[93m436 [0m[96m; ramp-capacity-2 = [0m[21;1H[93m437 [0m[96m; ramp-capacity-3 = [0m[22;1H[93m438 [0m[96m; ramp-capacity-4 = [0m[23;1H[93m439 [0m[96m;[0m
+[93m440 [0m[96m; ; Only applies if <bar-capacity> is used[0m
+[93m441 [0m[96m; bar-capacity-width = 10[0m
+[93m442 [0m[96m;[0m
+[93m443 [0m[96m; ; Only applies if <animation-charging> is used[0m
+[93m444 [0m[96m; animation-charging-0 = [0m[29;1H[93m445 [0m[96m; animation-charging-1 = [0m[30;1H[93m446 [0m[96m; animation-charging-2 = [0m[31;1H[93m447 [0m[96m; animation-charging-3 = [0m[32;1H[93m448 [0m[96m; animation-charging-4 = [0m[33;1H[93m449 [0m[96m; ; Framerate in milliseconds[0m
+[93m450 [0m[96m; animation-charging-framerate = 750[0m
+[93m451 [0m[96m;[0m
+[93m452 [0m[96m; ; Only applies if <animation-discharging> is used[0m
+[93m453 [0m[96m; animation-discharging-0 = [0m[38;1H[93m454 [0m[96m; animation-discharging-1 = [0m[39;1H[93m455 [0m[96m; animation-discharging-2 = [0m[40;1H[93m456 [0m[96m; animation-discharging-3 = [0m[41;1H[93m457 [0m[96m; animation-discharging-4 = [0m[42;1H[93m458 [0m[96m; ; Framerate in milliseconds[0m
+[93m459 [0m[96m; animation-discharging-framerate = 500[0m
+[93m460 
+461 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m462 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[1m[7m~/.config/polybar/config.ini [+]                                                                                                                        459,40         65%[0m[48;1H[1m-- INSERT --[43;44H[?12l[?25h[0m[48;1H[K[43;43H[?25l[48;160H^[[43;43H[?12l[?25h[?25l[48;160H  [43;44H[47;157H[1m[7m39[43;43H[?12l[?25h[?25l[0m[48;160H:[43;43H[48;160H[K[48;1H:[?12l[?25hw[?25l"~/.config/polybar/config.ini" 678L, 17384B written[43;43H[47;30H[1m[7m   [43;43H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m415 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m416 [0m[96m; ;   %percentage_raw%[0m
+[93m417 [0m[96m; ;   %time%[0m
+[93m418 [0m[96m; ;   %consumption% (shows current charge rate in watts)[0m
+[93m419 [0m[96m; label-charging = Charging %percentage%%[0m
+[93m420 [0m[96m;[0m
+[93m421 [0m[96m; ; Available tokens:[0m
+[93m422 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m423 [0m[96m; ;   %percentage_raw%[0m
+[93m424 [0m[96m; ;   %time%[0m
+[93m425 [0m[96m; ;   %consumption% (shows current discharge rate in watts)[0m
+[93m426 [0m[96m; label-discharging = Discharging %percentage%%[0m
+[93m427 [0m[96m;[0m
+[93m428 [0m[96m; ; Available tokens:[0m
+[93m429 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m430 [0m[96m; ;   %percentage_raw%[0m
+[93m431 [0m[96m; label-full = Fully charged[0m
+[93m432 [0m[96m;[0m
+[93m433 [0m[96m; ; Only applies if <ramp-capacity> is used[0m
+[93m434 [0m[96m; ramp-capacity-0 = [0m[21;1H[93m435 [0m[96m; ramp-capacity-1 = [0m[22;1H[93m436 [0m[96m; ramp-capacity-2 = [0m[23;1H[93m437 [0m[96m; ramp-capacity-3 = [0m[24;1H[93m438 [0m[96m; ramp-capacity-4 = [0m[25;1H[93m439 [0m[96m;[0m
+[93m440 [0m[96m; ; Only applies if <bar-capacity> is used[0m
+[93m441 [0m[96m; bar-capacity-width = 10[0m
+[93m442 [0m[96m;[0m
+[93m443 [0m[96m; ; Only applies if <animation-charging> is used[0m
+[93m444 [0m[96m; animation-charging-0 = [0m[31;1H[93m445 [0m[96m; animation-charging-1 = [0m[32;1H[93m446 [0m[96m; animation-charging-2 = [0m[33;1H[93m447 [0m[96m; animation-charging-3 = [0m[34;1H[93m448 [0m[96m; animation-charging-4 = [0m[35;1H[93m449 [0m[96m; ; Framerate in milliseconds[0m
+[93m450 [0m[96m; animation-charging-framerate = 750[0m
+[93m451 [0m[96m;[0m
+[93m452 [0m[96m; ; Only applies if <animation-discharging> is used[0m
+[93m453 [0m[96m; animation-discharging-0 = [0m[40;1H[93m454 [0m[96m; animation-discharging-1 = [0m[41;1H[93m455 [0m[96m; animation-discharging-2 = [0m[42;1H[93m456 [0m[96m; animation-discharging-3 = [0m[43;1H[93m457 [0m[96m; animation-discharging-4 = [0m[44;1H[93m458 [0m[96m; ; Framerate in milliseconds[0m
+[93m459 [0m[96m; animation-discharging-framerate = 500[0m
+[93m460 
+461 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m462 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            459,39         65%[45;43H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m417 [0m[96m; ;   %time%[0m
+[93m418 [0m[96m; ;   %consumption% (shows current charge rate in watts)[0m
+[93m419 [0m[96m; label-charging = Charging %percentage%%[0m
+[93m420 [0m[96m;[0m
+[93m421 [0m[96m; ; Available tokens:[0m
+[93m422 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m423 [0m[96m; ;   %percentage_raw%[0m
+[93m424 [0m[96m; ;   %time%[0m
+[93m425 [0m[96m; ;   %consumption% (shows current discharge rate in watts)[0m
+[93m426 [0m[96m; label-discharging = Discharging %percentage%%[0m
+[93m427 [0m[96m;[0m
+[93m428 [0m[96m; ; Available tokens:[0m
+[93m429 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m430 [0m[96m; ;   %percentage_raw%[0m
+[93m431 [0m[96m; label-full = Fully charged[0m
+[93m432 [0m[96m;[0m
+[93m433 [0m[96m; ; Only applies if <ramp-capacity> is used[0m
+[93m434 [0m[96m; ramp-capacity-0 = [0m[19;1H[93m435 [0m[96m; ramp-capacity-1 = [0m[20;1H[93m436 [0m[96m; ramp-capacity-2 = [0m[21;1H[93m437 [0m[96m; ramp-capacity-3 = [0m[22;1H[93m438 [0m[96m; ramp-capacity-4 = [0m[23;1H[93m439 [0m[96m;[0m
+[93m440 [0m[96m; ; Only applies if <bar-capacity> is used[0m
+[93m441 [0m[96m; bar-capacity-width = 10[0m
+[93m442 [0m[96m;[0m
+[93m443 [0m[96m; ; Only applies if <animation-charging> is used[0m
+[93m444 [0m[96m; animation-charging-0 = [0m[29;1H[93m445 [0m[96m; animation-charging-1 = [0m[30;1H[93m446 [0m[96m; animation-charging-2 = [0m[31;1H[93m447 [0m[96m; animation-charging-3 = [0m[32;1H[93m448 [0m[96m; animation-charging-4 = [0m[33;1H[93m449 [0m[96m; ; Framerate in milliseconds[0m
+[93m450 [0m[96m; animation-charging-framerate = 750[0m
+[93m451 [0m[96m;[0m
+[93m452 [0m[96m; ; Only applies if <animation-discharging> is used[0m
+[93m453 [0m[96m; animation-discharging-0 = [0m[38;1H[93m454 [0m[96m; animation-discharging-1 = [0m[39;1H[93m455 [0m[96m; animation-discharging-2 = [0m[40;1H[93m456 [0m[96m; animation-discharging-3 = [0m[41;1H[93m457 [0m[96m; animation-discharging-4 = [0m[42;1H[93m458 [0m[96m; ; Framerate in milliseconds[0m
+[93m459 [0m[96m; animation-discharging-framerate = 500[0m
+[93m460 
+461 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m462 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            459,39         65%[43;43H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m415 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m416 [0m[96m; ;   %percentage_raw%[0m
+[93m417 [0m[96m; ;   %time%[0m
+[93m418 [0m[96m; ;   %consumption% (shows current charge rate in watts)[0m
+[93m419 [0m[96m; label-charging = Charging %percentage%%[0m
+[93m420 [0m[96m;[0m
+[93m421 [0m[96m; ; Available tokens:[0m
+[93m422 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m423 [0m[96m; ;   %percentage_raw%[0m
+[93m424 [0m[96m; ;   %time%[0m
+[93m425 [0m[96m; ;   %consumption% (shows current discharge rate in watts)[0m
+[93m426 [0m[96m; label-discharging = Discharging %percentage%%[0m
+[93m427 [0m[96m;[0m
+[93m428 [0m[96m; ; Available tokens:[0m
+[93m429 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m430 [0m[96m; ;   %percentage_raw%[0m
+[93m431 [0m[96m; label-full = Fully charged[0m
+[93m432 [0m[96m;[0m
+[93m433 [0m[96m; ; Only applies if <ramp-capacity> is used[0m
+[93m434 [0m[96m; ramp-capacity-0 = [0m[21;1H[93m435 [0m[96m; ramp-capacity-1 = [0m[22;1H[93m436 [0m[96m; ramp-capacity-2 = [0m[23;1H[93m437 [0m[96m; ramp-capacity-3 = [0m[24;1H[93m438 [0m[96m; ramp-capacity-4 = [0m[25;1H[93m439 [0m[96m;[0m
+[93m440 [0m[96m; ; Only applies if <bar-capacity> is used[0m
+[93m441 [0m[96m; bar-capacity-width = 10[0m
+[93m442 [0m[96m;[0m
+[93m443 [0m[96m; ; Only applies if <animation-charging> is used[0m
+[93m444 [0m[96m; animation-charging-0 = [0m[31;1H[93m445 [0m[96m; animation-charging-1 = [0m[32;1H[93m446 [0m[96m; animation-charging-2 = [0m[33;1H[93m447 [0m[96m; animation-charging-3 = [0m[34;1H[93m448 [0m[96m; animation-charging-4 = [0m[35;1H[93m449 [0m[96m; ; Framerate in milliseconds[0m
+[93m450 [0m[96m; animation-charging-framerate = 750[0m
+[93m451 [0m[96m;[0m
+[93m452 [0m[96m; ; Only applies if <animation-discharging> is used[0m
+[93m453 [0m[96m; animation-discharging-0 = [0m[40;1H[93m454 [0m[96m; animation-discharging-1 = [0m[41;1H[93m455 [0m[96m; animation-discharging-2 = [0m[42;1H[93m456 [0m[96m; animation-discharging-3 = [0m[43;1H[93m457 [0m[96m; animation-discharging-4 = [0m[44;1H[93m458 [0m[96m; ; Framerate in milliseconds[0m
+[93m459 [0m[96m; animation-discharging-framerate = 500[0m
+[93m460 
+461 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m462 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            459,39         65%[45;43H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m417 [0m[96m; ;   %time%[0m
+[93m418 [0m[96m; ;   %consumption% (shows current charge rate in watts)[0m
+[93m419 [0m[96m; label-charging = Charging %percentage%%[0m
+[93m420 [0m[96m;[0m
+[93m421 [0m[96m; ; Available tokens:[0m
+[93m422 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m423 [0m[96m; ;   %percentage_raw%[0m
+[93m424 [0m[96m; ;   %time%[0m
+[93m425 [0m[96m; ;   %consumption% (shows current discharge rate in watts)[0m
+[93m426 [0m[96m; label-discharging = Discharging %percentage%%[0m
+[93m427 [0m[96m;[0m
+[93m428 [0m[96m; ; Available tokens:[0m
+[93m429 [0m[96m; ;   %percentage% (default) - is set to 100 if full-at is reached[0m
+[93m430 [0m[96m; ;   %percentage_raw%[0m
+[93m431 [0m[96m; label-full = Fully charged[0m
+[93m432 [0m[96m;[0m
+[93m433 [0m[96m; ; Only applies if <ramp-capacity> is used[0m
+[93m434 [0m[96m; ramp-capacity-0 = [0m[19;1H[93m435 [0m[96m; ramp-capacity-1 = [0m[20;1H[93m436 [0m[96m; ramp-capacity-2 = [0m[21;1H[93m437 [0m[96m; ramp-capacity-3 = [0m[22;1H[93m438 [0m[96m; ramp-capacity-4 = [0m[23;1H[93m439 [0m[96m;[0m
+[93m440 [0m[96m; ; Only applies if <bar-capacity> is used[0m
+[93m441 [0m[96m; bar-capacity-width = 10[0m
+[93m442 [0m[96m;[0m
+[93m443 [0m[96m; ; Only applies if <animation-charging> is used[0m
+[93m444 [0m[96m; animation-charging-0 = [0m[29;1H[93m445 [0m[96m; animation-charging-1 = [0m[30;1H[93m446 [0m[96m; animation-charging-2 = [0m[31;1H[93m447 [0m[96m; animation-charging-3 = [0m[32;1H[93m448 [0m[96m; animation-charging-4 = [0m[33;1H[93m449 [0m[96m; ; Framerate in milliseconds[0m
+[93m450 [0m[96m; animation-charging-framerate = 750[0m
+[93m451 [0m[96m;[0m
+[93m452 [0m[96m; ; Only applies if <animation-discharging> is used[0m
+[93m453 [0m[96m; animation-discharging-0 = [0m[38;1H[93m454 [0m[96m; animation-discharging-1 = [0m[39;1H[93m455 [0m[96m; animation-discharging-2 = [0m[40;1H[93m456 [0m[96m; animation-discharging-3 = [0m[41;1H[93m457 [0m[96m; animation-discharging-4 = [0m[42;1H[93m458 [0m[96m; ; Framerate in milliseconds[0m
+[93m459 [0m[96m; animation-discharging-framerate = 500[0m
+[93m460 
+461 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m462 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[1m[7m~/.config/polybar/config.ini                                                                                                                            459,39         65%[43;43H[?12l[?25h[?25l[0m[48;160H^[[43;43H[?12l[?25h[?25l[48;160H  [43;43H[?5h[?12l[?25h[?5l[?25l[48;160Hu[43;43H[48;1H71 fewer lines; before #2  4 seconds ago[48;160H[K[23;13H[27m[24m[23m[0m[H[2J[1;1H[93m366 [0m[38;5;121mformat-muted-foreground[0m =[95m ${color.fg-alt}[0m
+[93m367 [0m[38;5;121mformat-muted-padding[0m =[95m 2[0m
+[93m368 [0m[38;5;121mlabel-muted[0m =[95m "Muted"[0m
+[93m369 
+370 [0m[38;5;121mramp-volume-0[0m =[95m [0m[6;1H[93m371 [0m[38;5;121mramp-volume-1[0m =[95m [0m[7;1H[93m372 [0m[38;5;121mramp-volume-2[0m =[95m [0m[8;1H[93m373 [0m[38;5;121mramp-volume-3[0m =[95m [0m[9;1H[93m374 [0m[38;5;121mramp-volume-4[0m =[95m [0m[10;1H[93m375 
+376 [0m[38;5;121mramp-headphones-0[0m =[95m [0m[12;1H[93m377 [0m[38;5;121mramp-headphones-1[0m =[95m [0m[13;1H[93m378 
+379 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m380 
+381 [0m[38;5;224m[module/[0m[30m[103mbattery[0m[38;5;224m][0m
+[93m382 [0m[38;5;121mtype[0m =[95m internal/[0m[30m[103mbattery[0m
+[93m383 
+384 [0m[38;5;121mfull-at[0m =[95m 99[0m
+[93m385 [0m[30m[103mbattery[0m =[95m BAT1[0m
+[93m386 [0m[38;5;121madapter[0m =[95m ACAD[0m
+[93m387 [0m[38;5;121mpoll-interval[0m =[95m 2[0m
+[93m388 [0m[38;5;121mtime-format[0m =[95m %H:%M[0m
+[93m389 
+390 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m391 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[93m392 [0m[38;5;121mformat-charging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m393 [0m[38;5;121mformat-charging-padding[0m =[95m 2[0m
+[93m394 
+395 [0m[38;5;121mformat-discharging[0m =[95m <ramp-capacity> <label-discharging>[0m
+[93m396 [0m[38;5;121mformat-discharging-background[0m =[95m ${color.shade3}[0m
+[93m397 [0m[38;5;121mformat-discharging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m398 [0m[38;5;121mformat-discharging-padding[0m =[95m 2[0m
+[93m399 
+400 [0m[38;5;121mformat-full[0m =[95m <label-full>[0m
+[93m401 [0m[38;5;121mformat-full-background[0m =[95m ${color.shade3}[0m
+[93m402 [0m[38;5;121mformat-full-foreground[0m =[95m ${color.fg-alt}[0m
+[93m403 [0m[38;5;121mformat-full-padding[0m =[95m 2[0m
+[93m404 
+405 [0m[38;5;121mlabel-charging[0m =[95m %percentage%%[0m
+[93m406 [0m[38;5;121mlabel-discharging[0m =[95m %percentage%%[0m
+[93m407 [0m[38;5;121mlabel-full[0m =[95m 100% Charged[0m
+[93m408 
+409 [0m[96m; Only applies if <ramp-capacity> is used[0m
+[93m410 [0m[38;5;121mramp-capacity-0[0m =[95m [0m[46;1H[93m411 [0m[38;5;121mramp-capacity-1[0m =[95m [0m[47;1H[1m[7m~/.config/polybar/config.ini [+]                                                                                                                        388,9          65%[0m[48;1H71 fewer lines; before #2  4 seconds ago[23;13H[?12l[?25h[?25l[48;160H~@k[23;13H[48;160H   [24;5H[47;155H[1m[7m9,0-1[24;5H[?12l[?25h[?25l[0m[48;160H~@k[24;5H[48;160H   [25;13H[47;154H[1m[7m90,9  [25;13H[?12l[?25h[?25l[0m[48;160H~@k[25;13H[48;160H   [26;13H[47;155H[1m[7m1[26;13H[?12l[?25h[?25l[0m[48;160H~@k[26;13H[48;160H   [27;13H[47;155H[1m[7m2[27;13H[?12l[?25h[?25l[0m[48;160H~@k[27;13H[48;160H   [28;13H[47;155H[1m[7m3[28;13H[?12l[?25h[?25l[0m[48;160H~@k[28;13H[48;160H   [29;5H[47;155H[1m[7m4,0-1[29;5H[?12l[?25h[?25l[0m[48;160H~@k[29;5H[48;160H   [30;13H[47;155H[1m[7m5,9  [30;13H[?12l[?25h[?25l[0m[48;160H~@k[30;13H[48;160H   [31;13H[47;155H[1m[7m6[31;13H[?12l[?25h[?25l[0m[48;160H~@k[31;13H[48;160H   [32;13H[47;155H[1m[7m7[32;13H[?12l[?25h[?25l[0m[48;160H~@k[32;13H[48;160H   [33;13H[47;155H[1m[7m8[33;13H[?12l[?25h[?25l[0m[48;160H~@k[33;13H[48;160H   [34;5H[47;155H[1m[7m9,0-1[34;5H[?12l[?25h[?25l[0m[48;160H~@k[34;5H[48;160H   [35;13H[47;153H[1m[7m400,9  [35;13H[?12l[?25h[?25l[0m[48;160H~@k[35;13H[48;160H   [36;13H[47;155H[1m[7m1[36;13H[?12l[?25h[?25l[0m[48;160H~@k[36;13H[48;160H   [37;13H[47;155H[1m[7m2[37;13H[?12l[?25h[?25l[0m[48;160H~@k[37;13H[48;160H   [38;13H[47;155H[1m[7m3[38;13H[?12l[?25h[?25l[0m[48;160H~@k[38;13H[48;160H   [39;5H[47;155H[1m[7m4,0-1[39;5H[?12l[?25h[?25l[0m[48;160H~@k[39;5H[48;160H   [40;13H[47;155H[1m[7m5,9  [40;13H[?12l[?25h[?25l[0m[48;160H~@k[40;13H[48;160H   [41;13H[47;155H[1m[7m6[41;13H[?12l[?25h[?25l[0m[48;160H~@k[41;13H[48;160H   [42;13H[47;155H[1m[7m7[42;13H[?12l[?25h[?25l[0m[48;160H~@k[42;13H[48;160H   [43;5H[47;155H[1m[7m8,0-1[43;5H[?12l[?25h[?25l[0m[48;160H~@k[43;5H[48;160H   [43;13H[1;46r[46;1H
+[1;48r[46;1H[93m412 [0m[38;5;121mramp-capacity-2[0m =[95m [0m[48;1H[K[47;155H[1m[7m9,9  [43;13H[?12l[?25h[?25l[0m[48;160H~@k[43;13H[48;160H   [43;13H[1;46r[46;1H
+[1;48r[46;1H[93m413 [0m[38;5;121mramp-capacity-3[0m =[95m [0m[47;154H[1m[7m10[43;13H[?12l[?25h[?25l[0m[48;160H~@k[43;13H[48;160H   [43;13H[1;46r[46;1H
+[1;48r[46;1H[93m414 [0m[38;5;121mramp-capacity-4[0m =[95m [0m[47;155H[1m[7m1[43;13H[?12l[?25h[?25l[0m[48;160H~@k[43;13H[48;160H   [43;13H[1;46r[46;1H
+[1;48r[46;1H[93m415 [0m[38;5;121mramp-capacity-5[0m =[95m [0m[47;155H[1m[7m2[43;13H[?12l[?25h[?25l[0m[48;160H~@k[43;13H[48;160H   [43;13H[1;46r[46;1H
+[1;48r[46;1H[93m416 [0m[38;5;121mramp-capacity-6[0m =[95m [0m[47;155H[1m[7m3[43;13H[?12l[?25h[?25l[0m[48;160H~@k[43;13H[48;160H   [43;13H[1;46r[46;1H
+[1;48r[46;1H[93m417 [0m[38;5;121mramp-capacity-7[0m =[95m [0m[47;155H[1m[7m4[13C6[43;13H[?12l[?25h[?25l[0m[48;160H~@k[43;13H[48;160H   [43;13H[1;46r[46;1H
+[1;48r[46;1H[93m418 [0m[38;5;121mramp-capacity-8[0m =[95m [0m[47;155H[1m[7m5[43;13H[?12l[?25h[?25l[0m[48;160H~@k[43;13H[48;160H   [43;13H[1;46r[46;1H
+[1;48r[46;1H[93m419 [0m[38;5;121mramp-capacity-9[0m =[95m [0m[47;155H[1m[7m6[43;13H[?12l[?25h[?25l[0m[48;160H~@k[43;13H[48;160H   [43;13H[1;46r[46;1H
+[1;48r[46;1H[93m420 [0m[47;155H[1m[7m7[43;13H[?12l[?25h[?25l[0m[48;160H~@k[43;13H[48;160H   [43;13H[1;46r[46;1H
+[1;48r[46;1H[93m421 [0m[96m; Only applies if <animation-charging> is used[0m[47;155H[1m[7m8[43;13H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m374 [0m[38;5;121mramp-volume-4[0m =[95m [0m[2;1H[93m375 
+376 [0m[38;5;121mramp-headphones-0[0m =[95m [0m[4;1H[93m377 [0m[38;5;121mramp-headphones-1[0m =[95m [0m[5;1H[93m378 
+379 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m380 
+381 [0m[38;5;224m[module/[0m[30m[103mbattery[0m[38;5;224m][0m
+[93m382 [0m[38;5;121mtype[0m =[95m internal/[0m[30m[103mbattery[0m
+[93m383 
+384 [0m[38;5;121mfull-at[0m =[95m 99[0m
+[93m385 [0m[30m[103mbattery[0m =[95m BAT1[0m
+[93m386 [0m[38;5;121madapter[0m =[95m ACAD[0m
+[93m387 [0m[38;5;121mpoll-interval[0m =[95m 2[0m
+[93m388 [0m[38;5;121mtime-format[0m =[95m %H:%M[0m
+[93m389 
+390 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m391 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[93m392 [0m[38;5;121mformat-charging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m393 [0m[38;5;121mformat-charging-padding[0m =[95m 2[0m
+[93m394 
+395 [0m[38;5;121mformat-discharging[0m =[95m <ramp-capacity> <label-discharging>[0m
+[93m396 [0m[38;5;121mformat-discharging-background[0m =[95m ${color.shade3}[0m
+[93m397 [0m[38;5;121mformat-discharging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m398 [0m[38;5;121mformat-discharging-padding[0m =[95m 2[0m
+[93m399 
+400 [0m[38;5;121mformat-full[0m =[95m <label-full>[0m
+[93m401 [0m[38;5;121mformat-full-background[0m =[95m ${color.shade3}[0m
+[93m402 [0m[38;5;121mformat-full-foreground[0m =[95m ${color.fg-alt}[0m
+[93m403 [0m[38;5;121mformat-full-padding[0m =[95m 2[0m
+[93m404 
+405 [0m[38;5;121mlabel-charging[0m =[95m %percentage%%[0m
+[93m406 [0m[38;5;121mlabel-discharging[0m =[95m %percentage%%[0m
+[93m407 [0m[38;5;121mlabel-full[0m =[95m 100% Charged[0m
+[93m408 
+409 [0m[96m; Only applies if <ramp-capacity> is used[0m
+[93m410 [0m[38;5;121mramp-capacity-0[0m =[95m [0m[38;1H[93m411 [0m[38;5;121mramp-capacity-1[0m =[95m [0m[39;1H[93m412 [0m[38;5;121mramp-capacity-2[0m =[95m [0m[40;1H[93m413 [0m[38;5;121mramp-capacity-3[0m =[95m [0m[41;1H[93m414 [0m[38;5;121mramp-capacity-4[0m =[95m [0m[42;1H[93m415 [0m[38;5;121mramp-capacity-5[0m =[95m [0m[43;1H[93m416 [0m[38;5;121mramp-capacity-6[0m =[95m [0m[44;1H[93m417 [0m[38;5;121mramp-capacity-7[0m =[95m [0m[45;1H[93m418 [0m[38;5;121mramp-capacity-8[0m =[95m [0m[46;1H[93m419 [0m[38;5;121mramp-capacity-9[0m =[95m [0m[47;1H[93m420 
+421 [0m[96m; Only applies if <animation-charging> is used[0m
+[1m[7m~/.config/polybar/config.ini [+]                                                                                                                        418,9          66%[45;13H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m376 [0m[38;5;121mramp-headphones-0[0m =[95m [0m[2;1H[93m377 [0m[38;5;121mramp-headphones-1[0m =[95m [0m[3;1H[93m378 
+379 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m380 
+381 [0m[38;5;224m[module/[0m[30m[103mbattery[0m[38;5;224m][0m
+[93m382 [0m[38;5;121mtype[0m =[95m internal/[0m[30m[103mbattery[0m
+[93m383 
+384 [0m[38;5;121mfull-at[0m =[95m 99[0m
+[93m385 [0m[30m[103mbattery[0m =[95m BAT1[0m
+[93m386 [0m[38;5;121madapter[0m =[95m ACAD[0m
+[93m387 [0m[38;5;121mpoll-interval[0m =[95m 2[0m
+[93m388 [0m[38;5;121mtime-format[0m =[95m %H:%M[0m
+[93m389 
+390 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m391 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[93m392 [0m[38;5;121mformat-charging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m393 [0m[38;5;121mformat-charging-padding[0m =[95m 2[0m
+[93m394 
+395 [0m[38;5;121mformat-discharging[0m =[95m <ramp-capacity> <label-discharging>[0m
+[93m396 [0m[38;5;121mformat-discharging-background[0m =[95m ${color.shade3}[0m
+[93m397 [0m[38;5;121mformat-discharging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m398 [0m[38;5;121mformat-discharging-padding[0m =[95m 2[0m
+[93m399 
+400 [0m[38;5;121mformat-full[0m =[95m <label-full>[0m
+[93m401 [0m[38;5;121mformat-full-background[0m =[95m ${color.shade3}[0m
+[93m402 [0m[38;5;121mformat-full-foreground[0m =[95m ${color.fg-alt}[0m
+[93m403 [0m[38;5;121mformat-full-padding[0m =[95m 2[0m
+[93m404 
+405 [0m[38;5;121mlabel-charging[0m =[95m %percentage%%[0m
+[93m406 [0m[38;5;121mlabel-discharging[0m =[95m %percentage%%[0m
+[93m407 [0m[38;5;121mlabel-full[0m =[95m 100% Charged[0m
+[93m408 
+409 [0m[96m; Only applies if <ramp-capacity> is used[0m
+[93m410 [0m[38;5;121mramp-capacity-0[0m =[95m [0m[36;1H[93m411 [0m[38;5;121mramp-capacity-1[0m =[95m [0m[37;1H[93m412 [0m[38;5;121mramp-capacity-2[0m =[95m [0m[38;1H[93m413 [0m[38;5;121mramp-capacity-3[0m =[95m [0m[39;1H[93m414 [0m[38;5;121mramp-capacity-4[0m =[95m [0m[40;1H[93m415 [0m[38;5;121mramp-capacity-5[0m =[95m [0m[41;1H[93m416 [0m[38;5;121mramp-capacity-6[0m =[95m [0m[42;1H[93m417 [0m[38;5;121mramp-capacity-7[0m =[95m [0m[43;1H[93m418 [0m[38;5;121mramp-capacity-8[0m =[95m [0m[44;1H[93m419 [0m[38;5;121mramp-capacity-9[0m =[95m [0m[45;1H[93m420 
+421 [0m[96m; Only applies if <animation-charging> is used[0m
+[1m[7m~/.config/polybar/config.ini [+]                                                                                                                        418,9          66%[43;13H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m374 [0m[38;5;121mramp-volume-4[0m =[95m [0m[2;1H[93m375 
+376 [0m[38;5;121mramp-headphones-0[0m =[95m [0m[4;1H[93m377 [0m[38;5;121mramp-headphones-1[0m =[95m [0m[5;1H[93m378 
+379 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m380 
+381 [0m[38;5;224m[module/[0m[30m[103mbattery[0m[38;5;224m][0m
+[93m382 [0m[38;5;121mtype[0m =[95m internal/[0m[30m[103mbattery[0m
+[93m383 
+384 [0m[38;5;121mfull-at[0m =[95m 99[0m
+[93m385 [0m[30m[103mbattery[0m =[95m BAT1[0m
+[93m386 [0m[38;5;121madapter[0m =[95m ACAD[0m
+[93m387 [0m[38;5;121mpoll-interval[0m =[95m 2[0m
+[93m388 [0m[38;5;121mtime-format[0m =[95m %H:%M[0m
+[93m389 
+390 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m391 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[93m392 [0m[38;5;121mformat-charging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m393 [0m[38;5;121mformat-charging-padding[0m =[95m 2[0m
+[93m394 
+395 [0m[38;5;121mformat-discharging[0m =[95m <ramp-capacity> <label-discharging>[0m
+[93m396 [0m[38;5;121mformat-discharging-background[0m =[95m ${color.shade3}[0m
+[93m397 [0m[38;5;121mformat-discharging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m398 [0m[38;5;121mformat-discharging-padding[0m =[95m 2[0m
+[93m399 
+400 [0m[38;5;121mformat-full[0m =[95m <label-full>[0m
+[93m401 [0m[38;5;121mformat-full-background[0m =[95m ${color.shade3}[0m
+[93m402 [0m[38;5;121mformat-full-foreground[0m =[95m ${color.fg-alt}[0m
+[93m403 [0m[38;5;121mformat-full-padding[0m =[95m 2[0m
+[93m404 
+405 [0m[38;5;121mlabel-charging[0m =[95m %percentage%%[0m
+[93m406 [0m[38;5;121mlabel-discharging[0m =[95m %percentage%%[0m
+[93m407 [0m[38;5;121mlabel-full[0m =[95m 100% Charged[0m
+[93m408 
+409 [0m[96m; Only applies if <ramp-capacity> is used[0m
+[93m410 [0m[38;5;121mramp-capacity-0[0m =[95m [0m[38;1H[93m411 [0m[38;5;121mramp-capacity-1[0m =[95m [0m[39;1H[93m412 [0m[38;5;121mramp-capacity-2[0m =[95m [0m[40;1H[93m413 [0m[38;5;121mramp-capacity-3[0m =[95m [0m[41;1H[93m414 [0m[38;5;121mramp-capacity-4[0m =[95m [0m[42;1H[93m415 [0m[38;5;121mramp-capacity-5[0m =[95m [0m[43;1H[93m416 [0m[38;5;121mramp-capacity-6[0m =[95m [0m[44;1H[93m417 [0m[38;5;121mramp-capacity-7[0m =[95m [0m[45;1H[93m418 [0m[38;5;121mramp-capacity-8[0m =[95m [0m[46;1H[93m419 [0m[38;5;121mramp-capacity-9[0m =[95m [0m[47;1H[93m420 
+421 [0m[96m; Only applies if <animation-charging> is used[0m
+[1m[7m~/.config/polybar/config.ini [+]                                                                                                                        418,9          66%[45;13H[?12l[?25h[27m[24m[23m[0m[H[2J[?25l[1;1H[93m376 [0m[38;5;121mramp-headphones-0[0m =[95m [0m[2;1H[93m377 [0m[38;5;121mramp-headphones-1[0m =[95m [0m[3;1H[93m378 
+379 [0m[96m;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_[0m
+[93m380 
+381 [0m[38;5;224m[module/[0m[30m[103mbattery[0m[38;5;224m][0m
+[93m382 [0m[38;5;121mtype[0m =[95m internal/[0m[30m[103mbattery[0m
+[93m383 
+384 [0m[38;5;121mfull-at[0m =[95m 99[0m
+[93m385 [0m[30m[103mbattery[0m =[95m BAT1[0m
+[93m386 [0m[38;5;121madapter[0m =[95m ACAD[0m
+[93m387 [0m[38;5;121mpoll-interval[0m =[95m 2[0m
+[93m388 [0m[38;5;121mtime-format[0m =[95m %H:%M[0m
+[93m389 
+390 [0m[38;5;121mformat-charging[0m =[95m <animation-charging> <label-charging>[0m
+[93m391 [0m[38;5;121mformat-charging-background[0m =[95m ${color.shade3}[0m
+[93m392 [0m[38;5;121mformat-charging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m393 [0m[38;5;121mformat-charging-padding[0m =[95m 2[0m
+[93m394 
+395 [0m[38;5;121mformat-discharging[0m =[95m <ramp-capacity> <label-discharging>[0m
+[93m396 [0m[38;5;121mformat-discharging-background[0m =[95m ${color.shade3}[0m
+[93m397 [0m[38;5;121mformat-discharging-foreground[0m =[95m ${color.fg-alt}[0m
+[93m398 [0m[38;5;121mformat-discharging-padding[0m =[95m 2[0m
+[93m399 
+400 [0m[38;5;121mformat-full[0m =[95m <label-full>[0m
+[93m401 [0m[38;5;121mformat-full-background[0m =[95m ${color.shade3}[0m
+[93m402 [0m[38;5;121mformat-full-foreground[0m =[95m ${color.fg-alt}[0m
+[93m403 [0m[38;5;121mformat-full-padding[0m =[95m 2[0m
+[93m404 
+405 [0m[38;5;121mlabel-charging[0m =[95m %percentage%%[0m
+[93m406 [0m[38;5;121mlabel-discharging[0m =[95m %percentage%%[0m
+[93m407 [0m[38;5;121mlabel-full[0m =[95m 100% Charged[0m
+[93m408 
+409 [0m[96m; Only applies if <ramp-capacity> is used[0m
+[93m410 [0m[38;5;121mramp-capacity-0[0m =[95m [0m[36;1H[93m411 [0m[38;5;121mramp-capacity-1[0m =[95m [0m[37;1H[93m412 [0m[38;5;121mramp-capacity-2[0m =[95m [0m[38;1H[93m413 [0m[38;5;121mramp-capacity-3[0m =[95m [0m[39;1H[93m414 [0m[38;5;121mramp-capacity-4[0m =[95m [0m[40;1H[93m415 [0m[38;5;121mramp-capacity-5[0m =[95m [0m[41;1H[93m416 [0m[38;5;121mramp-capacity-6[0m =[95m [0m[42;1H[93m417 [0m[38;5;121mramp-capacity-7[0m =[95m [0m[43;1H[93m418 [0m[38;5;121mramp-capacity-8[0m =[95m [0m[44;1H[93m419 [0m[38;5;121mramp-capacity-9[0m =[95m [0m[45;1H[93m420 
+421 [0m[96m; Only applies if <animation-charging> is used[0m
+[1m[7m~/.config/polybar/config.ini [+]                                                                                                                        418,9          66%[43;13H[?12l[?25h[?25l[0m[48;160H^[[43;13H[?12l[?25h[?25l[48;160H  [43;13H[?5h[?12l[?25h[?5l[?25l[48;160H^[[43;13H[?12l[?25h[?25l[48;160H  [43;13H[?12l[?25h[?25l[48;160H:[43;13H[48;160H[K[48;1H:[?12l[?25hqa![?25l[?1l>[?12l[?25h[?1049l[23;0;0t
+[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/polybar/[1m[38;5;31m[38;5;39mscripts[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                 [0m[49m[38;5;101m 2m 40s[0m[38;5;101m[49m[38;5;101m[0m[38;5;101m[49m[38;5;101m[0m[38;5;101m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[32m.[39m[90m/style.sh[39m[9D[4m[32m.[4m[32m/[24m[39m[39m[4m.[39m[4m/[39m[4mt[24m[90me[90ms[90mt[90me[90mr[90m.[90ms[90mh[39m[8D[24m[1m[31m.[24m[1m[31m/[24m[1m[31mt[1m[31me[0m[39m[0m[39m[4m.[0m[39m[4m/[0m[39m[4mu[0m[39m[4mp[39m[4md[39m[4ma[39m[4mt[39m[4me[39m[4ms[24m[90m.[90ms[90mh[39m[4me[24m[24m[90ms[39m[4mt[24m[24m[90me[39m[4ma[24m[24m[90mt[39m[4md[24m[24m[90ma[24m[32m.[24m[32m/[24m[32mu[24m[32mp[24m[32md[32ma[32mt[32me[32ms[32m.[32ms[32mh[39m[1m [0m
+[1;32mbudgie-menu[0m*             [1;32mcolor-switch.sh[0m*         [1;32mgnome-menu[0m*              [1;32mliri-style[0m*              [1;32mrunner[0m*                  [1;32mubuntu-style[0m*          
+[1;32mbudgie-style[0m*            [1;32mdeepin-menu[0m*             [1;32mgnome-style[0m*             [1;32mliri-sysmenu[0m*            [1;32mstyle[0m*                   [1;32mubuntu-sysmenu[0m*        
+[1;32mbudgie-sysmenu[0m*          [1;32mdeepin-style[0m*            [1;32mgnome-sysmenu[0m*           [1;32mlupdates[0m*                [1;32mstyle.sh[0m*                [1;32mupdates.sh[0m*            
+[1;32mcheck-network[0m*           [1;32mdeepin-sysmenu[0m*          [1;32mkde-menu[0m*                [1;32mmenu[0m*                    [1;32mstyles.sh[0m*               [1;32mwindows[0m*               
+[1;32mcheck-network-ws[0m*        [1;32melementary-menu[0m*         [1;32mkde-style[0m*               [1;32mmenu_full[0m*               [1;32mstyle-switch.sh[0m*         [1;32mxubuntu-menu[0m*          
+[1;32mcheckupdates[0m*            [1;32melementary-menu-alt[0m*     [1;32mkde-sysmenu[0m*             [1;32mmint-menu[0m*               [1;32msysmenu[0m*                 [1;32mxubuntu-style[0m*         
+[1;32mcolors-dark.sh[0m*          [1;32melementary-style[0m*        [1;32mlauncher[0m*                [1;32mmint-style[0m*              [1;31mthemes[0m/                  [1;32mxubuntu-sysmenu[0m*       
+[1;32mcolors-light.sh[0m*         [1;32melementary-style-alt[0m*    [1;32mlauncher-alt[0m*            [1;32mmint-sysmenu[0m*            [1;32mtype.sh[0m*                 [1;32mzorin-menu[0m*            
+[1;32mcolors_rofi.sh[0m*          [1;32melementary-sysmenu[0m*      [1;32mlauncher-full[0m*           [1;32mpowermenu[0m*               [1;32mtype-switch.sh[0m*          [1;32mzorin-style[0m*           
+[J[1;32mcolors.sh[0m*               [J[1;32melementary-sysmenu-alt[0m*  [J[1;32mliri-menu[0m*               [J[1;32mpowermenu-alt[0m*           [J[1;32mubuntu-menu[0m*             [J[1;32mzorin-sysmenu[0m*         [J[10A[0m[27m[24m[0m[27m[24m[39m[49m[4C[32m./updates.sh[39m[1m [0m[K[0m[27m[24m[39m[49m[0m [?1l>[?25l[?2004l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32m./updates.sh[39m[K[1C[?12l[?25h
+]2;./updates.sh]1;./updates.sh
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar/scripts]1;..lybar/scripts[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/polybar/[1m[38;5;31m[38;5;39mscripts[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                               [0m[49m[38;5;160m✘ INT[0m[38;5;160m[49m[38;5;160m[0m[38;5;160m[49m[38;5;160m[0m[38;5;160m[49m[38;5;101m  3s[0m[38;5;101m[49m[38;5;101m[0m[38;5;101m[49m[38;5;101m[0m[38;5;101m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;196m❯[0m[38;5;196m[49m[38;5;196m[0m[38;5;196m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[32m.[39m[90m/updates.sh [39m[12D[4m[32m.[4m[32m.[24m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[?1l>[?25l[?2004l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m [4m[32m..[24m[39m[K[?12l[?25h
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar]1;..onfig/polybar[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/[1m[38;5;31m[38;5;39mpolybar[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                                 [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[32m.[39m[90m.[39m[4m[32m.[4m[32m/[24m[39m[90mupdates.sh [39m[11D[39m[4m.[39m[4m/[39m[4mt[24m[90me[90ms[90mt[90me[90mr[90m.[90ms[90mh[39m[39m [39m [10D[4mt[39m[4me[24m[24m[32m.[24m[32m/[24m[32mt[24m[32me[32ms[32mt[32me[32mr[32m.[32ms[32mh[39m[1m [0m[0m [?1l>[?25l[?2004l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32m./tester.sh[39m[K[?12l[?25h
+]2;./tester.sh]1;./tester.sh[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar]1;..onfig/polybar[1;34mnotice: [0mParsing config file: /home/themachine/.config/polybar/tester.ini[0m
+[1;34mnotice: [0mParsing config file: /home/themachine/.config/polybar/tester.ini[0m
+[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/[1m[38;5;31m[38;5;39mpolybar[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                                 [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004h[1;33mwarn: [0mThe config parameter 'settings.throttle-input-for' is deprecated, it will be removed in the future. Please remove it from your config[0m
+[1;33mwarn: [0mThe config parameter 'settings.throttle-input-for' is deprecated, it will be removed in the future. Please remove it from your config[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mDisabling module "battery" (reason: No suitable way to get current charge state)[0m
+[1;31merror: [0mDisabling module "network" (reason: Invalid network interface "wlan0")[0m
+[1;31merror: [0mDisabling module "battery_bar" (reason: No suitable way to get current charge state)[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;34mnotice: [0mLoaded font "Scientifica:size=8" (name=scientifica, offset=2, file=/home/themachine/.local/share/fonts/scientifica/scientifica-11.bdf)[0m
+[1;34mnotice: [0mLoaded font "waffle:size=12" (name=waffle, offset=2, file=/home/themachine/.local/share/fonts/waffle-10.bdf)[0m
+[1;34mnotice: [0mLoaded font "Scientifica:size=8" (name=scientifica, offset=2, file=/home/themachine/.local/share/fonts/scientifica/scientifica-11.bdf)[0m
+[1;34mnotice: [0mLoaded font "waffle:size=12" (name=waffle, offset=2, file=/home/themachine/.local/share/fonts/waffle-10.bdf)[0m
+[A[A[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/[1m[38;5;31m[38;5;39mpolybar[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                                 [0m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[1;31merror: [0mmodule/mpd_bar: Connection refused[0m
+[1;31merror: [0mmodule/mpd: Connection refused[0m
+[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [K[?12l[?25h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                          ]2;themachine@themachine:~/.config/polybar]1;..onfig/polybar[0m[27m[24m[J[0m[49m[39m
+[38;5;244m╭─[0m[38;5;244m[49m[30m [0m[30m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/.config/[1m[38;5;31m[38;5;39mpolybar[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                                                                                            [0m[49m[38;5;160m✘ INT[0m[38;5;160m[49m[38;5;160m[0m[38;5;160m[49m[38;5;160m[0m[38;5;160m[49m[39m
+[38;5;244m╰─[0m[38;5;244m[49m[38;5;196m❯[0m[38
